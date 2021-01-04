@@ -1,6 +1,41 @@
-@font-face{font-family: 'Raleway';
-src: url('Raleway/Raleway-VariableFont_wght.ttf');}
-@font-face{font-family: 'Fontawesome';
-src: url('Fontawesome/webfonts/fa-solid-900.ttf');}
-body{font-family: 'Raleway'}
-.map-logo,.bill-logo,.family-logo,.heart-logo,.dog-logo{font-family: 'Fontawesome'}
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway/Raleway-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Fontawesome';
+    src: url('Fontawesome/webfonts/fa-solid-900.ttf');
+}
+
+body {
+    font-family: 'Raleway'
+}
+
+.map-logo,
+.bill-logo,
+.family-logo,
+.heart-logo,
+.dog-logo,
+.info-logo {
+    font-family: 'Fontawesome'
+}
+
+.bill-logo,.family-logo,.heart-logo,.dog-logo,.info-logo{color: #0065FC}
+.bill-logo,.family-logo,.heart-logo,.dog-logo{background-color: #DEEBFF;}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.2em
+}
+
+li h1 {
+    font-size: 1em
+}
+
+li h2 {
+    font-size: 0.8em
+}
