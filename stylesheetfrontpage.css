@@ -12,13 +12,42 @@ body {
     font-family: 'Raleway'
 }
 
-.map-logo,.bill-logo,.family-logo,.heart-logo,.dog-logo,.info-logo,.bluestar,.greystar{
+.map-logo,
+.bill-logo,
+.family-logo,
+.heart-logo,
+.dog-logo,
+.info-logo,
+.bluestar,
+.greystar {
     font-family: 'Fontawesome'
 }
-.greystar{color:#F2F2F2 ;}
-.bill-logo,.family-logo,.heart-logo,.dog-logo,.info-logo,.info-logo,.inscription{color: #0065FC}
-.bill-logo,.family-logo,.heart-logo,.dog-logo{background-color: #DEEBFF;}
-.map-logo{background-color: #F2F2F2;}
+
+.greystar {
+    color: #F2F2F2;
+}
+
+.bill-logo,
+.family-logo,
+.heart-logo,
+.dog-logo,
+.info-logo,
+.info-logo,
+.inscription,
+.bluestar {
+    color: #0065FC
+}
+
+.bill-logo,
+.family-logo,
+.heart-logo,
+.dog-logo {
+    background-color: #DEEBFF;
+}
+
+.map-logo {
+    background-color: #F2F2F2;
+}
 
 h1 {
     font-size: 1.6em;
@@ -35,22 +64,78 @@ li h1 {
 li h2 {
     font-size: 0.8em
 }
-.inscription{font-weight: bold}
 
-article,aside,footer{background-color: #F2F2F2;}
+.inscription {
+    font-weight: bold
+}
 
-.aubcan{background: url("material/images/hebergements/4_small/aubcan.jpg") no-repeat;}
-.hotelport{background: url("material/images/hebergements/4_small/hotelport.jpg") no-repeat;}
-.hotelmouettes{background: url("material/images/hebergements/4_small/hotelmouettes.jpg") no-repeat;}
-.hotelmer{background: url("material/images/hebergements/4_small/hotelmer.jpg") no-repeat;}
-.aubpan{background: url("material/images/hebergements/4_small/aublep.jpg") no-repeat;}
-.hotelamina{background: url("material/images/hebergements/4_small/hotelamina.jpg") no-repeat;}
-.hotelsoleil{background: url("material/images/hebergements/4_small/hotelsoleil.jpg") no-repeat;}
-.coeurhote{background: url("material/images/hebergements/4_small/coeurhote.jpg") no-repeat;}
-.hoteltbeb{background: url("material/images/hebergements/4_small/hoteltbeb.jpg") no-repeat;}
-.vieuxport{background: url("material/images/activites/4_small/port.jpg") no-repeat;}
-.pomegues{background: url("material/images/activites/4_small/pomegues.jpg") no-repeat;}
-.frioul{background: url("material/images/activites/4_small/frioul.jpg") no-repeat;}
-.calanques{background: url("material/images/activites/4_small/calanques.jpg") no-repeat;}
-.notredame{background: url("material/images/activites/4_small/notredame.jpg") no-repeat;}
-.longchamp{background: url("material/images/activites/4_small/longchamp.jpg") no-repeat;}
+article,
+aside,
+footer {
+    background-color: #F2F2F2;
+}
+
+.aubcan {
+    background: url("material/images/hebergements/4_small/aubcan.jpg") no-repeat;
+}
+
+.hotelport {
+    background: url("material/images/hebergements/4_small/hotelport.jpg") no-repeat;
+}
+
+.hotelmouettes {
+    background: url("material/images/hebergements/4_small/hotelmouettes.jpg") no-repeat;
+}
+
+.hotelmer {
+    background: url("material/images/hebergements/4_small/hotelmer.jpg") no-repeat;
+}
+
+.aubpan {
+    background: url("material/images/hebergements/4_small/aublep.jpg") no-repeat;
+}
+
+.hotelamina {
+    background: url("material/images/hebergements/4_small/hotelamina.jpg") no-repeat;
+}
+
+.hotelsoleil {
+    background: url("material/images/hebergements/4_small/hotelsoleil.jpg") no-repeat;
+}
+
+.coeurhote {
+    background: url("material/images/hebergements/4_small/coeurhote.jpg") no-repeat;
+}
+
+.hoteltbeb {
+    background: url("material/images/hebergements/4_small/hoteltbeb.jpg") no-repeat;
+}
+
+.vieuxport {
+    background: url("material/images/activites/4_small/port.jpg") no-repeat;
+}
+
+.pomegues {
+    background: url("material/images/activites/4_small/pomegues.jpg") no-repeat;
+}
+
+.frioul {
+    background: url("material/images/activites/4_small/frioul.jpg") no-repeat;
+}
+
+.calanques {
+    background: url("material/images/activites/4_small/calanques.jpg") no-repeat;
+}
+
+.notredame {
+    background: url("material/images/activites/4_small/notredame.jpg") no-repeat;
+}
+
+.longchamp {
+    background: url("material/images/activites/4_small/longchamp.jpg") no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
