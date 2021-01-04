@@ -16,8 +16,9 @@ body {
     font-family: 'Fontawesome'
 }
 .greystar{color:#F2F2F2 ;}
-.bill-logo,.family-logo,.heart-logo,.dog-logo,.info-logo{color: #0065FC}
+.bill-logo,.family-logo,.heart-logo,.dog-logo,.info-logo,.info-logo,.inscription{color: #0065FC}
 .bill-logo,.family-logo,.heart-logo,.dog-logo{background-color: #DEEBFF;}
+.map-logo{background-color: #F2F2F2;}
 
 h1 {
     font-size: 1.6em;
@@ -34,3 +35,6 @@ li h1 {
 li h2 {
     font-size: 0.8em
 }
+.inscription{font-weight: bold}
+
+article,aside,footer{background-color: #F2F2F2;}
