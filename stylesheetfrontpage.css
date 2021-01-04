@@ -12,15 +12,10 @@ body {
     font-family: 'Raleway'
 }
 
-.map-logo,
-.bill-logo,
-.family-logo,
-.heart-logo,
-.dog-logo,
-.info-logo {
+.map-logo,.bill-logo,.family-logo,.heart-logo,.dog-logo,.info-logo,.bluestar,.greystar{
     font-family: 'Fontawesome'
 }
-
+.greystar{color:#F2F2F2 ;}
 .bill-logo,.family-logo,.heart-logo,.dog-logo,.info-logo{color: #0065FC}
 .bill-logo,.family-logo,.heart-logo,.dog-logo{background-color: #DEEBFF;}
 
