@@ -183,8 +183,9 @@ img {
 }
 
 .entete li {
-    padding-left: 25px
+    padding-left: 25px;padding-right:25px;padding-top: 30px;text-align: center;
 }
+#logoreservia{padding-top: 30px}
 
 .filtres ul {
     display: flex
@@ -195,4 +196,10 @@ img {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-aside ul li{display: flex}
+aside li{display: flex}
+.activites ul{display: flex;flex-wrap: nowrap}
+.activites{max-height: 500px}
+footer{display: flex;}
+footer ul{margin-left: 50px;margin-right: 100px;}
+
+.entete a:hover{color:#0065FC;border-top: #0065FC solid;padding-top: 30px}
