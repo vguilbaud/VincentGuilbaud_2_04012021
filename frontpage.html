@@ -8,24 +8,23 @@
 </head>
 
 <body>
-    <section class="entete">
-        <nav>
-            <h1><img src="material/images/logo/logoreserviasmall.png" alt="Logo Reservia" id="logoreservia"></h1>
-            <ul>
-                <li><a href="#ancreheb">Hébergements</a></li>
-                <li><a href="#ancreact">Activités</a></li>
-                <li><a href="inscription.html" class="inscription">S'inscrire</a></li>
-            </ul>
-        </nav>
-        <header>
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <h2>En plein centre ville ou en pleine nature</h2>
-            <p><span class="map-logo"></span> Marseille, France</p>
-            <p><a href="recherche.html">Rechercher</a></p>
-        </header>
-    </section>
+    <nav class="entete">
+        <h1><a href="frontpage.html"><img src="material/images/logo/logoreserviasmall.png" alt="Logo Reservia" id="logoreservia"></a></h1>
+        <ul>
+            <li><a href="#ancreheb">Hébergements</a></li>
+            <li><a href="#ancreact">Activités</a></li>
+            <li><a href="inscription.html" class="inscription">S'inscrire</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <h2>En plein centre ville ou en pleine nature</h2>
+        <p><span class="map-logo"></span> Marseille, France</p>
+        <p><a href="recherche.html">Rechercher</a></p>
+    </header>
     <nav class="filtres">
-        <ul>Filtres
+        <ul>
+            <h1>Filtres</h1>
             <li><span class="bill-logo"></span>Économique</li>
             <li><span class="family-logo"></span>Familial</li>
             <li><span class="heart-logo"></span>Romantique</li>
@@ -33,6 +32,7 @@
         </ul>
         <p><span class="info-logo"></span> Plus de 500 logements sont disponibles dans cette ville</p>
     </nav>
+    <div class="hebergements">
         <section class="hebdefaut">
             <h1 id="ancreheb">Hébergements à Marseille</h1>
             <ul>
@@ -74,78 +74,91 @@
                     </a></li>
             </ul>
             <p>Afficher plus</p>
-      </section>
+        </section>
         <aside>
-                <h1>Les plus populaires</h1>
-                <p class="graph-logo"></p>
-                <ul>
+            <h1>Les plus populaires</h1>
+            <p class="graph-logo"></p>
+            <ul>
                 <li class="hotelsoleil"><a href="soleilm.html">
-                        <p><img src="material/images/hebergements/hotelsoleilcroc.jpg" alt="Hôtel le soleil du matin"></p>
-                        <h1>Hôtel Le soleil du matin</h1>
-                        <h2>Nuit à partir de 128€</h2>
-                        <p class="bluestar"></p>
+                        <div class="imagepop">
+                            <p><img src="material/images/hebergements/hotelsoleilcroc.jpg" alt="Hôtel le soleil du matin"></p>
+                        </div>
+                        <div class="textpop">
+                            <h1>Hôtel Le soleil du matin</h1>
+                            <h2>Nuit à partir de 128€</h2>
+                            <p class="bluestar"></p>
+                        </div>
                     </a></li>
-                <li class="coeurhote"><a href="coeureau.html">
-                        <p><img src="material/images/hebergements/hotecoeurcroc.jpg" alt="Au coeur de l'eau Chambres d'hôtes"></p>
-                        <h1>Au coeur de l'eau Chambres d'hôtes</h1>
-                        <h2>Nuit à partir de 71€</h2>
-                        <p class="bluestar"><span class="greystar"></span></p>
+                <li class="coeurhote"><a href="coeurhote.html">
+                        <div class="imagepop">
+                            <p><img src="material/images/hebergements/hotecoeurcroc.jpg" alt="Au coeur de l'eau Chambres d'hôtes"></p>
+                        </div>
+                        <div class="textpop">
+                            <h1>Au coeur de l'eau Chambres d'hôtes</h1>
+                            <h2>Nuit à partir de 71€</h2>
+                            <p class="bluestar"><span class="greystar"></span></p>
+                        </div>
                     </a></li>
                 <li class="hoteltbeb"><a href="tbeb.html">
-                        <p><img src="material/images/hebergements/hoteltbebcroc.jpg" alt="Hôtel Tout bleu et Blanc"></p>
-                        <h1>Hôtel Tout bleu et Blanc</h1>
-                        <h2>Nuit à partir de 68€</h2>
-                        <p class="bluestar"><span class="greystar"></span></p>
+                        <div class="imagepop">
+                            <p><img src="material/images/hebergements/hoteltbebcroc.jpg" alt="Hôtel Tout bleu et Blanc"></p>
+                        </div>
+                        <div class="textpop">
+                            <h1>Hôtel Tout bleu et Blanc</h1>
+                            <h2>Nuit à partir de 68€</h2>
+                            <p class="bluestar"><span class="greystar"></span></p>
+                        </div>
                     </a></li>
             </ul>
         </aside>
-        <section class="activites">
-            <ul>
-                <h1 id="ancreact">Activités à Marseille</h1>
-                <li class="vieuxport"><a href="vieuxport.html">
-                        <p><img src="material/images/activites/vieuxportcroc.jpg" alt="Vieux port"></p>
-                        <h1>Vieux port</h1>
-                    </a></li>
-                <li class="pomegues"><a href="pomegues.html">
-                        <p><img src="material/images/activites/pomeguescroc.jpg" alt="Fort de Pomègues"></p>
-                        <h1>Fort de Pomègues</h1>
-                    </a></li>
-                <li class="frioul"><a href="frioul.html">
-                        <p><img src="material/images/activites/frioulcroc.jpg" alt="Îles du Frioul"></p>
-                        <h1>Îles du Frioul</h1>
-                    </a></li>
-                <li class="calanques"><a href="calanques.html">
-                        <p><img src="material/images/activites/calanquescroc.jpg" alt="Parc National des Calanques"></p>
-                        <h1>Parc National des Calanques</h1>
-                    </a></li>
-                <li class="notredame"><a href="notredame.html">
-                        <p><img src="material/images/activites/notredamecroc.jpg" alt="Notre-Dame-de-la-Garde"></p>
-                        <h1>Notre-Dame-de-la-Garde</h1>
-                    </a></li>
-                <li class="longchamp"><a href="longchamp.html">
-                        <p><img src="material/images/activites/longchampcroc.jpg" alt="Parc Longchamp"></p>
-                        <h1>Parc Longchamp</h1>
-                    </a></li>
-            </ul>
-        </section>
-        <footer>
-            <ul>
-                <h1>A propos</h1>
-                <li><a href="fonctionnement.html">Fonctionnement du site</a></li>
-                <li><a href="conditions.html">Conditions générales de vente</a></li>
-                <li><a href="donnees.html">Données et confidentialité</a></li>
-            </ul>
-            <ul>
-                <h1>Nos hébergements</h1>
-                <li><a href="charte.html">Charte qualité</a></li>
-                <li><a href="soumettre.html">Soumettre votre hôtel</a></li>
-            </ul>
-            <ul>
-                <h1>Assistance</h1>
-                <li><a href="centre.html">Centre d'aide</a></li>
-                <li><a href="contact">Nous contacter</a></li>
-            </ul>
-        </footer>
+    </div>
+    <section class="activites">
+        <ul>
+            <h1 id="ancreact">Activités à Marseille</h1>
+            <li class="vieuxport"><a href="vieuxport.html">
+                    <p><img src="material/images/activites/vieuxportcroc.jpg" alt="Vieux port"></p>
+                    <h1>Vieux port</h1>
+                </a></li>
+            <li class="pomegues"><a href="pomegues.html">
+                    <p><img src="material/images/activites/pomeguescroc.jpg" alt="Fort de Pomègues"></p>
+                    <h1>Fort de Pomègues</h1>
+                </a></li>
+            <li class="frioul"><a href="frioul.html">
+                    <p><img src="material/images/activites/frioulcroc.jpg" alt="Îles du Frioul"></p>
+                    <h1>Îles du Frioul</h1>
+                </a></li>
+            <li class="calanques"><a href="calanques.html">
+                    <p><img src="material/images/activites/calanquescroc.jpg" alt="Parc National des Calanques"></p>
+                    <h1>Parc National des Calanques</h1>
+                </a></li>
+            <li class="notredame"><a href="notredame.html">
+                    <p><img src="material/images/activites/notredamecroc.jpg" alt="Notre-Dame-de-la-Garde"></p>
+                    <h1>Notre-Dame-de-la-Garde</h1>
+                </a></li>
+            <li class="longchamp"><a href="longchamp.html">
+                    <p><img src="material/images/activites/longchampcroc.jpg" alt="Parc Longchamp"></p>
+                    <h1>Parc Longchamp</h1>
+                </a></li>
+        </ul>
+    </section>
+    <footer>
+        <ul>
+            <h1>A propos</h1>
+            <li><a href="fonctionnement.html">Fonctionnement du site</a></li>
+            <li><a href="conditions.html">Conditions générales de vente</a></li>
+            <li><a href="donnees.html">Données et confidentialité</a></li>
+        </ul>
+        <ul>
+            <h1>Nos hébergements</h1>
+            <li><a href="charte.html">Charte qualité</a></li>
+            <li><a href="soumettre.html">Soumettre votre hôtel</a></li>
+        </ul>
+        <ul>
+            <h1>Assistance</h1>
+            <li><a href="centre.html">Centre d'aide</a></li>
+            <li><a href="contact">Nous contacter</a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>
