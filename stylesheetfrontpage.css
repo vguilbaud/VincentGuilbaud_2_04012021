@@ -12,16 +12,7 @@ body {
     font-family: 'Raleway'
 }
 
-.map-logo,
-.bill-logo,
-.family-logo,
-.heart-logo,
-.dog-logo,
-.info-logo,
-.bluestar,
-.greystar {
-    font-family: 'Fontawesome'
-}
+.map-logo,.bill-logo,.family-logo,.heart-logo,.dog-logo,.info-logo,.bluestar,.greystar,.graph-logo{font-family:'Fontawesome'}
 
 .greystar {
     color: #F2F2F2;
@@ -31,7 +22,6 @@ body {
 .family-logo,
 .heart-logo,
 .dog-logo,
-.info-logo,
 .info-logo,
 .inscription,
 .bluestar {
@@ -79,4 +69,20 @@ a {
     text-decoration: none;
     color: black
 }
-li{list-style: none}
+
+li {
+    list-style: none
+}
+
+header p a {
+    color: white;
+    background-color: #0065FC;
+}
+
+article ul,aside ul{
+    background-color: white
+}
+.filtres li{border: 2px #F2F2F2 solid;}
+article, aside,.activites{border-radius: 10px}
+article li, aside li{border: 3px white solid;border-radius: 10px}
+.info-logo{border:2px #F2F2F2 solid;border-radius: 50%}
