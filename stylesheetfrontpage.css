@@ -11,7 +11,8 @@
 body {
     font-family: 'Raleway'
 }
-
+nav,header,.hebdefaut,aside,.activites{margin-left: 50px;margin-right: 50px;}
+footer{margin-left: 0px;margin-right: 0px;}
 .map-logo,.bill-logo,.family-logo,.heart-logo,.dog-logo,.info-logo,.bluestar,.greystar,.graph-logo{font-family:'Fontawesome'}
 
 .greystar {
@@ -59,7 +60,7 @@ li h2 {
     font-weight: bold
 }
 
-article,
+.hebdefaut,
 aside,
 footer {
     background-color: #F2F2F2;
@@ -70,8 +71,8 @@ a {
     color: black
 }
 
-li {
-    list-style: none
+li,ul{
+    list-style: none;margin: 0; padding: 0
 }
 
 header p a {
@@ -79,10 +80,18 @@ header p a {
     background-color: #0065FC;
 }
 
-article ul,aside ul{
+.hebdefaut ul,aside ul{
     background-color: white
 }
 .filtres li{border: 2px #F2F2F2 solid;}
-article, aside,.activites{border-radius: 10px}
-article li, aside li{border: 3px white solid;border-radius: 10px}
+.hebdefaut, aside,.activites{border-radius: 10px}
+.hebdefaut li, aside li{border: 3px white solid;border-radius: 10px}
 .info-logo{border:2px #F2F2F2 solid;border-radius: 50%}
+.hebdefaut{width: 61.1%}
+aside{width: 29%}
+.activites{width: 93%;}
+.hebdefaut li{width: 16.6%;min-width: 240px}
+.aside li{width: 23%;min-width: 330px}
+img{object-fit: contain;width: 100%}
+#logoreservia{width:105px;}
+.activites li{width: 20.8%;min-width: 300px}
