@@ -59,10 +59,6 @@ footer {
     background-color: #DEEBFF;
 }
 
-.map-logo {
-    background-color: #F2F2F2;
-}
-
 h1 {
     font-size: 1.6em;
 }
@@ -98,11 +94,6 @@ li,
 ul {
     list-style: none;
     padding: 0
-}
-
-header p a {
-    color: white;
-    background-color: #0065FC;
 }
 
 .hebergements li {
@@ -254,4 +245,40 @@ aside li {
     display: flex;
     margin: 15px;
 }
-.hebergements{margin-right: 50px;}
+
+.hebergements {
+    margin-right: 50px;
+}
+
+form {
+    display: flex;
+    max-width: 420px;
+    height: 40px;
+    align-items: center;
+}
+
+.rechercher {
+    color: white;
+    background-color: #0065FC;
+    border-style: none;
+    font-weight: bold;
+    padding:15px;border-radius: 0px 20px 20px 0px;
+
+}
+
+#citylocation {
+    font-weight: bold;
+    border-bottom: #F2F2F2 solid 2px;
+    border-top: #F2F2F2 solid 2px;
+    border-right: none;
+    border-left: none;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 10px
+}
+
+.map-logo {
+    background-color: #F2F2F2;
+    padding-left: 15px;padding-top: 12px;padding-right: 15px;padding-bottom: 18px;
+    border-left: #F2F2F2 solid 2px;
+    border-top: #F2F2F2 solid 2px;border-radius: 20px 0px 0px 20px}
