@@ -75,6 +75,10 @@ li h2 {
     font-size: 0.8em
 }
 
+header h2 {
+    font-weight: normal
+}
+
 .inscription {
     font-weight: bold
 }
@@ -96,40 +100,24 @@ ul {
     padding: 0
 }
 
-.hebergements li {
-    background-color: white;
-}
-
-.filtres li {
-    border: 2px #F2F2F2 solid;
-    border-radius: 20px;
-    text-align: center;
-    margin-right: 20px;
-    justify-content: center
-}
-
 .hebdefaut,
-aside,
-.activites {
+aside {
     border-radius: 20px
-}
-
-.hebdefaut li,
-aside li {
-    border: 3px white solid;
-    border-radius: 10px
 }
 
 .info-logo {
     border: 2px #F2F2F2 solid;
-    border-radius: 100%;
-    padding: 10px;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
     margin: 10px;
+    text-align: center;
+    justify-content: center
 }
 
-.hebdefaut {
-    min-width: 61.1%
-}
+
 
 aside {
     min-width: 29%
@@ -140,13 +128,8 @@ aside {
     min-width: 93%;
 }
 
-.hebdefaut li {
-    width: 16.6%;
-    min-width: 240px
-}
-
 .aside li {
-    width: 23%;
+    min-width: 23%;
     min-width: 330px
 }
 
@@ -182,35 +165,26 @@ img {
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 0px;
+    padding-bottom: 0px;
     text-align: center;
     margin-top: 0px;
-}
-
-.filtres ul {
-    display: flex
-}
-
-.hebdefaut ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    margin-bottom: 0px;
 }
 
 .activites ul {
     display: flex;
-    flex-wrap: nowrap
+    flex-wrap: nowrap;
+    align-items: stretch
 }
 
 .activites li {
     margin: 15px;
-    border-radius: 30px;
 }
 
 .activites img {
     width: 100%;
     object-fit: cover;
-    border-radius: 50px;
-    border-top:
+    border-radius: 25px 25px 0px 0px;
 }
 
 footer {
@@ -262,7 +236,8 @@ form {
     background-color: #0065FC;
     border-style: none;
     font-weight: bold;
-    padding:15px;border-radius: 0px 20px 20px 0px;
+    padding: 15px;
+    border-radius: 0px 20px 20px 0px;
 
 }
 
@@ -279,6 +254,70 @@ form {
 
 .map-logo {
     background-color: #F2F2F2;
-    padding-left: 15px;padding-top: 12px;padding-right: 15px;padding-bottom: 18px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-right: 15px;
+    padding-bottom: 18px;
     border-left: #F2F2F2 solid 2px;
-    border-top: #F2F2F2 solid 2px;border-radius: 20px 0px 0px 20px}
+    border-top: #F2F2F2 solid 2px;
+    border-radius: 20px 0px 0px 20px
+}
+
+.filtres li {
+    text-align: center;
+    justify-content: center;
+}
+
+.textfiltre {
+    border-right: 3px #F2F2F2 solid;
+    border-top: 3px #F2F2F2 solid;
+    border-bottom: 3px #F2F2F2 solid;
+    border-radius: 0px 40px 40px 0px;
+    padding: 15px;
+    padding-left: 0px
+}
+
+.filtres ul {
+    display: flex;
+    align-items: center;
+}
+
+.filtres li,
+.filtres h1 {
+    padding: 15px;
+    margin-right: 20px;
+    font-weight: bold;
+    padding-left: 0px
+}
+
+.bill-logo,
+.family-logo,
+.heart-logo,
+.dog-logo {
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.hebdefaut img {
+    border: white solid 3px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.hebdefaut li h1 {
+    background-color: white;
+    padding-top: 0px;
+}
+
+.hebdefaut {
+    min-width: 61.1%
+}
+
+.hebdefaut ul {
+    display: flex;flex-wrap: wrap;flex-direction: row
+}
+
+.hebdefaut li {
+    width: 18%;
+    min-width: 240px;
+    min-height: 200px;background-color: white;
+}
