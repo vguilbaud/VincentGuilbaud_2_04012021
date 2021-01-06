@@ -97,7 +97,6 @@ a {
 li,
 ul {
     list-style: none;
-    margin: 0;
     padding: 0
 }
 
@@ -106,10 +105,16 @@ header p a {
     background-color: #0065FC;
 }
 
-.hebergements li{background-color: white;padding-top: 0px}
+.hebergements li {
+    background-color: white;
+}
 
 .filtres li {
     border: 2px #F2F2F2 solid;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 20px;
+    justify-content: center
 }
 
 .hebdefaut,
@@ -126,22 +131,22 @@ aside li {
 
 .info-logo {
     border: 2px #F2F2F2 solid;
-    border-radius: 100px;
-    padding: 8px;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 10px;
 }
 
 .hebdefaut {
-    width: 61.1%
+    min-width: 61.1%
 }
 
 aside {
-    width: 29%
+    min-width: 29%
 }
 
-.hebergements{height: 33%}
 
 .activites {
-    width: 93%;
+    min-width: 93%;
 }
 
 .hebdefaut li {
@@ -155,8 +160,8 @@ aside {
 }
 
 img {
-    
-    width: 100%
+    max-height: 100%;
+    max-width: 100%
 }
 
 #logoreservia {
@@ -169,7 +174,7 @@ img {
 }
 
 .hebergements {
-    display: flex
+    display: flex;
 }
 
 .entete {
@@ -183,9 +188,12 @@ img {
 }
 
 .entete li {
-    padding-left: 25px;padding-right:25px;padding-top: 30px;text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    text-align: center;
+    margin-top: 0px;
 }
-#logoreservia{padding-top: 30px}
 
 .filtres ul {
     display: flex
@@ -196,11 +204,54 @@ img {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-aside li{display: flex}
-.activites ul{display: flex;flex-wrap: nowrap}
-.activites{max-height: 500px}
-footer{display: flex;}
-footer ul{margin-left: 50px;margin-right: 100px;}
 
-.entete li a:hover{color:#0065FC;border-top: #0065FC solid;padding-top: 30px}
-.titrepop{display: flex;justify-content: space-between;align-items: center;padding:10px;}
+.activites ul {
+    display: flex;
+    flex-wrap: nowrap
+}
+
+.activites li {
+    margin: 15px;
+    border-radius: 30px;
+}
+
+.activites img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    border-top:
+}
+
+footer {
+    display: flex;
+}
+
+footer ul {
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.entete li a:hover {
+    color: #0065FC;
+    border-top: #0065FC solid;
+    padding-top: 30px
+}
+
+.titrepop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.imagepop {
+    width: 9%;
+    min-width: 130px
+}
+
+aside li {
+    display: flex;
+    margin: 15px;
+}
+.hebergements{margin-right: 50px;}
