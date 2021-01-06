@@ -12,11 +12,8 @@ body {
     font-family: 'Raleway'
 }
 
-nav,
-header,
-.hebdefaut,
-aside,
-.activites {
+nav,header,.hebdefaut,
+.activites{
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -116,19 +113,8 @@ aside {
     justify-content: center
 }
 
-
-
-aside {
-    min-width: 29%
-}
-
-
 .activites {
     min-width: 93%;
-}
-
-.aside li {
-    min-width: 23%;
 }
 
 img {
@@ -146,7 +132,7 @@ img {
 }
 
 .hebergements {
-    display: flex;
+    display: flex;margin-right: 50px
 }
 
 .entete {
@@ -193,6 +179,7 @@ footer ul {
     margin-left: 50px;
     margin-right: 100px;
 }
+footer li{margin-top: 15px}
 
 .entete li a:hover {
     color: #0065FC;
@@ -213,14 +200,6 @@ footer ul {
     min-width: 130px
 }
 
-aside li {
-    display: flex;
-    margin: 15px;
-}
-
-.hebergements {
-    margin-right: 50px;
-}
 
 form {
     display: flex;
@@ -314,3 +293,16 @@ form {
     border-radius:25px 25px 25px 25px; padding:0px;margin-bottom: 20px;
 }
 .hebdefaut h1,hebdefaut h2, hebdefaut p{padding:0px;margin: 0px;}
+aside li{background-color: white;border-radius:25px 25px 25px 25px;}
+aside img{border-radius: 25px 0px 0px 25px}
+aside li {
+    display: flex;
+    margin: 15px;
+}
+.aside li {
+    min-width: 23%;
+}
+aside {
+    min-width: 29%
+}
+aside{margin-right: 50px}
