@@ -296,20 +296,21 @@ form {
     border-radius: 50%;
 }
 
-.hebdefaut img {
-    border: white solid 3px;
-    border-radius: 25px 25px 0px 0px;
+.hebdefaut img {border-radius: 25px 25px 0px 0px;min-height: 120px
+    
 }
 
 .hebdefaut {
-    min-width: 61.1%
+    min-width: 61.1%;padding:20px
 }
 
 .hebdefaut ul{
-    display: flex;flex-wrap: wrap;justify-content: space-around;
+    display: flex;flex-wrap: wrap;justify-content: space-between;
 }
 
 .hebdefaut li {
     max-width: 18%;
-    min-width: 240px;padding-top: 0px
+    min-width: 240px;padding-top: 0px;background-color: white;border: white solid 5px;
+    border-radius:25px 25px 25px 25px; padding:0px;margin-bottom: 20px;
 }
+.hebdefaut h1,hebdefaut h2, hebdefaut p{padding:0px;margin: 0px;}
