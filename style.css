@@ -94,8 +94,7 @@ a {
     color: black
 }
 
-li,
-ul {
+li{
     list-style: none;
     padding: 0
 }
@@ -130,7 +129,6 @@ aside {
 
 .aside li {
     min-width: 23%;
-    min-width: 330px
 }
 
 img {
@@ -303,21 +301,15 @@ form {
     border-radius: 25px 25px 0px 0px;
 }
 
-.hebdefaut li h1 {
-    background-color: white;
-    padding-top: 0px;
-}
-
 .hebdefaut {
     min-width: 61.1%
 }
 
 .hebdefaut ul{
-    display: flex;flex-wrap: wrap;justify-content: space-around
+    display: flex;flex-wrap: wrap;justify-content: space-around;
 }
 
 .hebdefaut li {
     max-width: 18%;
-    min-width: 240px;
-    min-height: 200px;background-color: white;
+    min-width: 240px;padding-top: 0px
 }
