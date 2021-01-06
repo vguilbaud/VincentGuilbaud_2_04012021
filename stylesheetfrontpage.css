@@ -202,4 +202,5 @@ aside li{display: flex}
 footer{display: flex;}
 footer ul{margin-left: 50px;margin-right: 100px;}
 
-.entete a:hover{color:#0065FC;border-top: #0065FC solid;padding-top: 30px}
+.entete li a:hover{color:#0065FC;border-top: #0065FC solid;padding-top: 30px}
+.titrepop{display: flex;justify-content: space-between;align-items: center;padding:10px;}
