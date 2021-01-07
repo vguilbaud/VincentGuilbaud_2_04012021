@@ -12,8 +12,7 @@ body {
     font-family: 'Raleway'
 }
 
-nav,header,
-.activites{
+nav,header{
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -174,11 +173,13 @@ img {
     width: 100%;
     border-radius: 25px 25px 0px 0px;
 }
-.footer{display: flex;flex-wrap: wrap}
+#ancreact{padding-left: 40px}
+
+.footer{display: flex;flex-wrap: wrap;margin-left: 50px}
 footer div{display: flex;flex-direction: column;margin-right: 200px}
 
 footer li{margin-top: 15px}
-footer ul{padding-left: 0px}
+footer ul{padding-left: 0px;}
 
 .entete li a:hover {
     color: #0065FC;
@@ -266,27 +267,28 @@ form {
 }
 
 .hebdefaut {
-    min-width: 40%;padding:20px;max-width: 880px;
+    min-width: 40%;max-width: 880px;padding-right: 20px;
 }
 
 .hebdefaut ul{
-    display: flex;flex-wrap: wrap;justify-content: space-between;
+    display: flex;flex-wrap: wrap;justify-content: space-between;margin-top: 2px;margin-bottom: 2px
 }
 
 .hebdefaut li {
     max-width: 18%;
-    min-width: 240px;padding-top: 0px;background-color: white;border: white solid 5px;
+    min-width: 240px;padding-top: 0px;background-color: white;border: white solid 4px;
     border-radius:25px 25px 25px 25px; padding:0px;margin-bottom: 20px;
 }
 .hebdefaut h1,hebdefaut h2, hebdefaut p{padding:0px;margin: 0px;}
-#ancreheb, .scroll{margin-left: 40px}
+#ancreheb, .scroll{margin-left: 40px;}
+.scroll{margin-top: 0px;margin-bottom:8px}
 
 aside li{background-color: white;border-radius:25px 25px 25px 25px;
-    margin-bottom: 15px;border: white solid 3px;}
-aside img{border-radius: 25px 0px 0px 25px;border-left:white solid 3px;border-top: white solid 3px}
-.textpop{}
-aside li a{display: flex;}
-aside ul{display: flex;flex-direction: column;justify-content: space-between}
+    margin-top: 15px;border: white solid 2px;border-bottom: 1px;}
+aside img{border-radius: 25px 0px 0px 25px;border-left:white solid 3px;border-top: white solid 2px}
+.textpop{padding-left: 10px}
+aside li a{display: flex;align-items: center}
+aside ul{display: flex;flex-direction: column;justify-content: space-between;margin-bottom: 2px;margin-top: 2px}
 aside{display: flex;flex-direction: column;}
 
 aside{min-width: 25%;padding-right: 20px;max-width: 420px}
