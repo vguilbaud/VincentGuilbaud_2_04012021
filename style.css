@@ -210,34 +210,28 @@ form {
     border-radius: 20px 0px 0px 20px
 }
 
-.filtres li {
-    text-align: center;
-    justify-content: center;
-}
-
-.textfiltre {
+.textfiltre{
     border-right: 2px #F2F2F2 solid;
     border-top: 2px #F2F2F2 solid;
     border-bottom: 2px #F2F2F2 solid;
     border-radius: 0px 40px 40px 0px;
     padding: 13px;
-    padding-left: 30px;
+    padding-left: 30px;position: relative;left: -19px
 }
 .filtresflex{display: flex;align-items: center}
-.filtres ul {
+.filtres ul{
     display: flex;flex-wrap: wrap;
-    align-items: center;
+   
 }
+.eco,.fam,.chien,.rom{position: relative;}
 
 .filtres li,
 .filtres h1 {
     padding: 15px;
-    margin-right: 20px;
     font-weight: bold;
-    padding-left: 0px
 }
 .filtresflex span{float: left}
-
+.filtres p{margin-top: 0px;margin-bottom: 30px}
 .bill-logo,
 .family-logo,
 .heart-logo,
@@ -257,6 +251,7 @@ form {
 .hebdefaut ul{
     display: flex;flex-wrap: wrap;justify-content: space-between;margin-top: 2px;margin-bottom: 2px
 }
+.hebdefaut li h2,.hebdefaut li h3,.hebdefaut li p{margin-top: 3px;margin-bottom: 3px;padding-left: 6px}
 
 .hebdefaut li {
     max-width: 18%;
@@ -273,9 +268,9 @@ aside img{border-radius: 25px 0px 0px 25px;border-left:white solid 3px;border-to
 .textpop{padding-left: 10px}
 aside li a{display: flex;align-items: center}
 aside ul{display: flex;flex-direction: column;justify-content: space-between;margin-bottom: 2px;margin-top: 2px}
-aside{display: flex;flex-direction: column;}
+.titrepop{margin-left: 30px}
 
-aside{min-width: 25%;padding-right: 20px;max-width: 420px;margin-bottom: 30px; padding-bottom: 10px;}
+aside{min-width: 25%;padding-right: 20px;max-width: 420px;margin-bottom: 30px; padding-bottom: 20px;}
 
 .titrepop {
     display: flex;
