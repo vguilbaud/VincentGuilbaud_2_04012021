@@ -179,7 +179,8 @@ img {
 footer div{display: flex;flex-direction: column;margin-right: 200px}
 
 footer li{margin-top: 15px}
-footer ul{padding-left: 0px;}
+footer ul{padding-left: 0px;margin-top: 0px}
+footer h2{margin-bottom: 0px}
 
 .entete li a:hover {
     color: #0065FC;
@@ -253,6 +254,7 @@ form {
     font-weight: bold;
     padding-left: 0px
 }
+.filtresflex span{float: left}
 
 .bill-logo,
 .family-logo,
@@ -267,7 +269,7 @@ form {
 }
 
 .hebdefaut {
-    min-width: 40%;max-width: 880px;padding-right: 20px;
+    min-width: 40%;max-width: 880px;padding-right: 20px;margin-bottom: 30px
 }
 
 .hebdefaut ul{
@@ -291,7 +293,7 @@ aside li a{display: flex;align-items: center}
 aside ul{display: flex;flex-direction: column;justify-content: space-between;margin-bottom: 2px;margin-top: 2px}
 aside{display: flex;flex-direction: column;}
 
-aside{min-width: 25%;padding-right: 20px;max-width: 420px}
+aside{min-width: 25%;padding-right: 20px;max-width: 420px;margin-bottom: 30px; padding-bottom: 10px;}
 
 .titrepop {
     display: flex;
