@@ -9,7 +9,7 @@
 
 <body>
     <nav class="entete">
-        <h1><a href="index.html"><img src="material/images/logo/logoreserviasmall.png" alt="Logo Reservia" id="logoreservia"></a></h1>
+        <h2><a href="index.html"><img src="material/images/logo/logoreserviasmall.png" alt="Logo Reservia" id="logoreservia"></a></h2>
         <ul>
             <li><a href="#ancreheb">Hébergements</a></li>
             <li><a href="#ancreact">Activités</a></li>
@@ -20,56 +20,59 @@
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <h2>En plein centre ville ou en pleine nature</h2>
         <form method="post" action="traitement.php">
-        <p><label for="citylocation"><span class="map-logo"></span></label><input type="text" name="citylocation" id="citylocation" value="Marseille, France"></p><input type="submit" value="Rechercher" class="rechercher"></form>
+            <p><label for="citylocation"><span class="map-logo"></span></label><input type="text" name="citylocation" id="citylocation" value="Marseille, France"></p><input type="submit" value="Rechercher" class="rechercher">
+        </form>
     </header>
     <nav class="filtres">
+    	<div class="filtresflex">
+        <h2>Filtres</h2>
         <ul>
-            <h1>Filtres</h1>
             <li><span class="bill-logo"></span><span class="textfiltre">Économique</span></li>
             <li><span class="family-logo"></span><span class="textfiltre">Familial</span></li>
             <li><span class="heart-logo"></span><span class="textfiltre">Romantique</span></li>
             <li><span class="dog-logo"></span><span class="textfiltre">Animaux autorisés</span></li>
         </ul>
+    </div>
         <p><span class="info-logo"></span> Plus de 500 logements sont disponibles dans cette ville</p>
     </nav>
     <div class="hebergements">
         <section class="hebdefaut">
-            <h1 id="ancreheb">Hébergements à Marseille</h1>
+            <h2 id="ancreheb">Hébergements à Marseille</h2>
             <ul>
                 <li class="aubcan"><a href="cannebiere.html">
                         <img src="material/images/hebergements/aubcancroc.jpg" alt="Auberge la Cannebière">
-                        <h1>Auberge La Cannebière</h1>
-                        <h2>Nuit à partir de 25€</h2>
+                        <h2>Auberge La Cannebière</h2>
+                        <h3>Nuit à partir de 25€</h3>
                         <p class="bluestar"> <span class="greystar"></span></p>
                     </a></li>
                 <li class="hotelport"><a href="hotelduport.html">
                         <img src="material/images/hebergements/hotelportcroc.jpg" alt="Hôtel du port">
-                        <h1>Hôtel du port</h1>
-                        <h2>Nuit à partir de 52€</h2>
+                        <h2>Hôtel du port</h2>
+                        <h3>Nuit à partir de 52€</h3>
                         <p class="bluestar"></p>
                     </a></li>
                 <li class="hotelmouettes"><a href="mouettes.html">
                         <img src="material/images/hebergements/hotelmouettescroc.jpg" alt="Hôtel Les mouettes">
-                        <h1>Hôtel Les mouettes</h1>
-                        <h2>Nuit à partir de 76€</h2>
+                        <h2>Hôtel Les mouettes</h2>
+                        <h3>Nuit à partir de 76€</h3>
                         <p class="bluestar"><span class="greystar"></span></p>
                     </a></li>
                 <li class="hotelmer"><a href="hotelmer.html">
                         <img src="material/images/hebergements/hotelmercroc.jpg" alt="Hôtel de la mer">
-                        <h1>Hôtel de la mer</h1>
-                        <h2>Nuit à partir de 46€</h2>
+                        <h2>Hôtel de la mer</h2>
+                        <h3>Nuit à partir de 46€</h3>
                         <p class="bluestar"><span class="greystar"></span></p>
                     </a></li>
                 <li class="aublep"><a href="panier.html">
                         <img src="material/images/hebergements/aublepcroc.jpg" alt="Auberge le Panier">
-                        <h1>Auberge Le Panier</h1>
-                        <h2>Nuit à partir de 23€</h2>
+                        <h2>Auberge Le Panier</h2>
+                        <h3>Nuit à partir de 23€</h3>
                         <p class="bluestar"><span class="greystar"></span></p>
                     </a></li>
                 <li class="hotelamina"><a href="amina.html">
                         <img src="material/images/hebergements/hotelaminacroc.jpg" alt="Hôtel chez Amina">
-                        <h1>Hôtel chez Amina</h1>
-                        <h2>Nuit à partir de 96€</h2>
+                        <h2>Hôtel chez Amina</h2>
+                        <h3>Nuit à partir de 96€</h3>
                         <p class="bluestar"></p>
                     </a></li>
             </ul>
@@ -77,96 +80,92 @@
         </section>
         <aside>
             <div class="titrepop">
-                <h1>Les plus populaires</h1>
+                <h2>Les plus populaires</h2>
                 <p class="graph-logo"></p>
             </div>
             <ul>
-                <a href="soleilm.html">
-                    <li class="hotelsoleil">
+                <li class="hotelsoleil">
+                    <a href="soleilm.html">
                         <div class="imagepop">
                             <img src="material/images/hebergements/hotelsoleilcroc.jpg" alt="Hôtel le soleil du matin">
                         </div>
                         <div class="textpop">
-                            <h1>Hôtel Le soleil du matin</h1>
-                            <h2>Nuit à partir de 128€</h2>
+                            <h2>Hôtel Le soleil du matin</h2>
+                            <h3>Nuit à partir de 128€</h3>
                             <p class="bluestar"></p>
                         </div>
-                    </li>
-                </a>
-                <a href="coeurhote.html">
-                    <li class="coeurhote">
+                    </a>
+                </li>
+                <li class="coeurhote">
+                    <a href="coeurhote.html">
                         <div class="imagepop">
                             <img src="material/images/hebergements/hotecoeurcroc.jpg" alt="Au coeur de l'eau Chambres d'hôtes">
                         </div>
                         <div class="textpop">
-                            <h1>Au coeur de l'eau Chambres d'hôtes</h1>
-                            <h2>Nuit à partir de 71€</h2>
+                            <h2>Au coeur de l'eau Chambres d'hôtes</h2>
+                            <h3>Nuit à partir de 71€</h3>
                             <p class="bluestar"><span class="greystar"></span></p>
                         </div>
-                    </li>
-                </a>
-                <a href="tbeb.html">
-                    <li class="hoteltbeb">
+                    </a>
+                </li>
+                <li class="hoteltbeb">
+                    <a href="tbeb.html">
                         <div class="imagepop">
                             <img src="material/images/hebergements/hoteltbebcroc.jpg" alt="Hôtel Tout bleu et Blanc">
                         </div>
                         <div class="textpop">
-                            <h1>Hôtel Tout bleu et Blanc</h1>
-                            <h2>Nuit à partir de 68€</h2>
+                            <h2>Hôtel Tout bleu et Blanc</h2>
+                            <h3>Nuit à partir de 68€</h3>
                             <p class="bluestar"><span class="greystar"></span></p>
                         </div>
-                    </li>
-                </a>
+                    </a>
+                </li>
             </ul>
         </aside>
     </div>
     <section class="activites">
-        <h1 id="ancreact">Activités à Marseille</h1>
+        <h2 id="ancreact">Activités à Marseille</h2>
         <ul>
             <li class="vieuxport"><a href="vieuxport.html">
                     <p><img src="material/images/activites/vieuxportcroc.jpg" alt="Vieux port"></p>
-                    <h1>Vieux port</h1>
+                    <h2>Vieux port</h2>
                 </a></li>
-            <div class="pomfri">
-                <li class="pomegues"><a href="pomegues.html">
-                        <p><img src="material/images/activites/pomeguescroc.jpg" alt="Fort de Pomègues"></p>
-                        <h1>Fort de Pomègues</h1>
-                    </a></li>
-                <li class="frioul"><a href="frioul.html">
-                        <p><img src="material/images/activites/frioulcroc.jpg" alt="Îles du Frioul"></p>
-                        <h1>Îles du Frioul</h1>
-                    </a></li>
-            </div>
+            <li class="pomegues"><a href="pomegues.html">
+                    <p><img src="material/images/activites/pomeguescroc.jpg" alt="Fort de Pomègues"></p>
+                    <h2>Fort de Pomègues</h2>
+                </a></li>
+            <li class="frioul"><a href="frioul.html">
+                    <p><img src="material/images/activites/frioulcroc.jpg" alt="Îles du Frioul"></p>
+                    <h2>Îles du Frioul</h2>
+                </a></li>
             <li class="calanques"><a href="calanques.html">
                     <p><img src="material/images/activites/calanquescroc.jpg" alt="Parc National des Calanques"></p>
-                    <h1>Parc National des Calanques</h1>
+                    <h2>Parc National des Calanques</h2>
                 </a></li>
-            <div class="notlon">
-                <li class="notredame"><a href="notredame.html">
-                        <p><img src="material/images/activites/notredamecroc.jpg" alt="Notre-Dame-de-la-Garde"></p>
-                        <h1>Notre-Dame-de-la-Garde</h1>
-                    </a></li>
-                <li class="longchamp"><a href="longchamp.html">
-                        <p><img src="material/images/activites/longchampcroc.jpg" alt="Parc Longchamp"></p>
-                        <h1>Parc Longchamp</h1>
-                    </a></li>
-            </div>
+            <li class="notredame"><a href="notredame.html">
+                    <p><img src="material/images/activites/notredamecroc.jpg" alt="Notre-Dame-de-la-Garde"></p>
+                    <h2>Notre-Dame-de-la-Garde</h2>
+                </a></li>
+            <li class="longchamp"><a href="longchamp.html">
+                    <p><img src="material/images/activites/longchampcroc.jpg" alt="Parc Longchamp"></p>
+                    <h2>Parc Longchamp</h2>
+                </a></li>
         </ul>
     </section>
     <footer>
+        <h2>A propos</h2>
         <ul>
-            <h1>A propos</h1>
             <li><a href="fonctionnement.html">Fonctionnement du site</a></li>
             <li><a href="conditions.html">Conditions générales de vente</a></li>
             <li><a href="donnees.html">Données et confidentialité</a></li>
         </ul>
+        <h2>Nos hébergements</h2>
         <ul>
-            <h1>Nos hébergements</h1>
             <li><a href="charte.html">Charte qualité</a></li>
             <li><a href="soumettre.html">Soumettre votre hôtel</a></li>
         </ul>
+        <h2>Assistance</h2>
         <ul>
-            <h1>Assistance</h1>
             <li><a href="centre.html">Centre d'aide</a></li>
             <li><a href="contact">Nous contacter</a></li>
         </ul>
