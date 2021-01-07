@@ -59,9 +59,10 @@ li h3 {
     font-size: 0.8em
 }
 .graph-logo{font-size: 23px}
-header h2 {
-    font-weight: normal
+header h2{
+    font-weight: normal;margin-top: 0px;margin-bottom: 25px ;font-size: 1em
 }
+header h1{margin-bottom: 0px}
 
 .inscription {
     font-weight: bold
