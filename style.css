@@ -42,7 +42,7 @@ footer {
 .dog-logo {
     background-color: #DEEBFF;
 }
-
+.bluestar,.greystar{font-size: 13px}
 h2 {
     font-size: 1.6em;
 }
@@ -58,7 +58,7 @@ li h2 {
 li h3 {
     font-size: 0.8em
 }
-
+.graph-logo{font-size: 23px}
 header h2 {
     font-weight: normal
 }
@@ -202,9 +202,9 @@ form {
 .map-logo {
     background-color: #F2F2F2;
     padding-left: 15px;
-    padding-top: 12px;
+    padding-top: 11px;
     padding-right: 15px;
-    padding-bottom: 18px;
+    padding-bottom: 16px;
     border-left: #F2F2F2 solid 2px;
     border-top: #F2F2F2 solid 2px;
     border-radius: 20px 0px 0px 20px
@@ -240,37 +240,39 @@ form {
     border-radius: 50%;
 }
 
-.hebdefaut img {border-radius: 25px 25px 0px 0px;min-height: 120px
+.hebdefaut img {border-radius: 25px 25px 0px 0px;min-height: 100px
     
 }
 
 .hebdefaut {
-    min-width: 40%;max-width: 880px;padding-right: 20px;margin-bottom: 30px
+max-width: 880px;padding-right: 20px;margin-bottom: 30px
 }
 
 .hebdefaut ul{
     display: flex;flex-wrap: wrap;justify-content: space-between;margin-top: 2px;margin-bottom: 2px
 }
-.hebdefaut li h2,.hebdefaut li h3,.hebdefaut li p{margin-top: 3px;margin-bottom: 3px;padding-left: 6px}
-
+.hebdefaut li h2,.hebdefaut li h3,.hebdefaut li p{margin-top: 3px;margin-bottom: 3px;padding-left: 14px}
+.hebdefaut h3{font-weight: normal}
 .hebdefaut li {
     max-width: 18%;
     min-width: 240px;padding-top: 0px;background-color: white;border: white solid 4px;
-    border-radius:25px 25px 25px 25px; padding:0px;margin-bottom: 20px;
+    border-radius:25px 25px 25px 25px; padding:0px;margin-bottom: 20px;box-shadow: 0px 0px 6px #A9B2B8
 }
 .hebdefaut h1,hebdefaut h2, hebdefaut p{padding:0px;margin: 0px;}
 #ancreheb, .scroll{margin-left: 40px;}
-.scroll{margin-top: 0px;margin-bottom:8px}
+.scroll{margin-top: 0px;margin-bottom: 0px;padding-bottom: 15px; ; padding-top: 12px;font-weight: bold}
 
 aside li{background-color: white;border-radius:25px 25px 25px 25px;
-    margin-top: 15px;border: white solid 2px;border-bottom: 1px;}
+    margin-bottom: 15px;border: white solid 2px;border-bottom: 1px;box-shadow: 0px 0px 6px #A9B2B8}
 aside img{border-radius: 25px 0px 0px 25px;border-left:white solid 3px;border-top: white solid 2px}
-.textpop{padding-left: 10px}
+.textpop{padding-left: 13px;padding-right: 35px;}
 aside li a{display: flex;align-items: center}
 aside ul{display: flex;flex-direction: column;justify-content: space-between;margin-bottom: 2px;margin-top: 2px}
-.titrepop{margin-left: 30px}
-
-aside{min-width: 25%;padding-right: 20px;max-width: 420px;margin-bottom: 30px; padding-bottom: 20px;}
+aside h3{margin-top: 0px}
+.textpop h2{margin-bottom: 5px;}
+.textpop h3{font-weight: normal}
+.textpop p{padding-top: 20px;}
+aside{padding-right: 20px;max-width: 420px;margin-bottom: 30px; padding-bottom: 10px;}
 
 .titrepop {
     display: flex;
@@ -278,8 +280,10 @@ aside{min-width: 25%;padding-right: 20px;max-width: 420px;margin-bottom: 30px; p
     align-items: center;
     padding: 10px;
     margin-right: 10px;
+    margin-left: 30px;
 }
-
+.titrepop h2{margin-top: 10px; margin-bottom: 13px}
+.graph-logo{margin-top: 12px;margin-bottom: 13px}
 .imagepop {
    
     min-width: 130px
