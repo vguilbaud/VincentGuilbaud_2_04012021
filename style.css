@@ -3,11 +3,6 @@
     src: url('Raleway/static/Raleway-Medium.ttf');
 }
 
-@font-face {
-    font-family: 'Fontawesome';
-    src: url('Fontawesome/webfonts/fa-solid-900.ttf');
-}
-
 body {
     font-family: 'Raleway'
 }
@@ -27,19 +22,6 @@ footer {
     margin-left: 0px;
     margin-right: 0px;
 }
-
-.map-logo,
-.bill-logo,
-.family-logo,
-.heart-logo,
-.dog-logo,
-.info-logo,
-.bluestar,
-.greystar,
-.graph-logo {
-    font-family: 'Fontawesome'
-}
-
 .greystar {
     color: #F2F2F2;
 }
