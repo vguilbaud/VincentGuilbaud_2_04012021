@@ -1,4 +1,4 @@
-@font-face {
+@font-face{
     font-family: 'Raleway';
     src: url('Raleway/static/Raleway-Medium.ttf');
 }
@@ -144,12 +144,12 @@ img {
     width: 20.8%;
     min-width: 300px;
 }
-@media all and (min-width: 1250px){
+@media all and (min-width: 1200px){
 .activites ul {
     display: flex;flex-direction: column;
     flex-wrap: wrap;justify-content: space-between;max-height: 500px 
 }}
-@media all and (max-width: 1250px){
+@media all and (max-width: 1200px){
 .activites ul {
     display: flex;
     flex-wrap: wrap;justify-content: space-between;
@@ -226,11 +226,15 @@ form {
     padding-left: 30px;position: relative;left: -19px
 }
 .filtresflex{display: flex;align-items: center}
+@media all and (max-width: 500px){
+    .filtresflex{display: flex;flex-direction: column;align-items: center;}
+}
 .filtres ul{
     display: flex;flex-wrap: wrap;
    
 }
 .eco,.fam,.chien,.rom{position: relative;}
+.bill-logo:hover,.family-logo:hover,.heart-logo:hover,.dog-logo:hover{color: black;background-color: #F2F2F2;}
 
 .filtres li,
 .filtres h1 {
@@ -247,12 +251,12 @@ form {
     border-radius: 50%;
 }
 
-.hebdefaut img {border-radius: 25px 25px 0px 0px;min-height: 100px
+.hebdefaut img {border-radius: 25px 25px 0px 0px;min-height: 120px
     
 }
 
 .hebdefaut {
-max-width: 880px;padding-right: 20px;margin-bottom: 30px
+max-width: 65%;min-width: 420px;padding-right: 20px;margin-bottom: 30px
 }
 
 .hebdefaut ul{
@@ -267,19 +271,19 @@ max-width: 880px;padding-right: 20px;margin-bottom: 30px
 }
 .hebdefaut h1,hebdefaut h2, hebdefaut p{padding:0px;margin: 0px;}
 #ancreheb, .scroll{margin-left: 40px;}
-.scroll{margin-top: 0px;margin-bottom: 0px;padding-bottom: 15px; ; padding-top: 12px;font-weight: bold}
+.scroll{margin-top: 0px;margin-bottom: 0px;padding-bottom: 15px;padding-top: 12px;font-weight: bold}
 
 aside li{background-color: white;border-radius:25px 25px 25px 25px;
     margin-bottom: 15px;border: white solid 2px;border-bottom: 1px;box-shadow: 0px 0px 6px #A9B2B8}
 aside img{border-radius: 25px 0px 0px 25px;border-left:white solid 3px;border-top: white solid 2px}
 .textpop{padding-left: 13px;padding-right: 35px;}
 aside li a{display: flex;align-items: center}
-aside ul{display: flex;flex-direction: column;justify-content: space-between;margin-bottom: 2px;margin-top: 2px}
+aside ul{display: flex;flex-direction:column;flex-wrap: wrap;justify-content: space-between;margin-bottom: 2px;margin-top: 2px}
 aside h3{margin-top: 0px}
 .textpop h2{margin-bottom: 5px;}
 .textpop h3{font-weight: normal}
 .textpop p{padding-top: 20px;}
-aside{padding-right: 20px;max-width: 420px;margin-bottom: 30px; padding-bottom: 10px;}
+aside{padding-right: 20px;min-width:30%;max-width:420px;margin-bottom: 30px; padding-bottom: 10px;}
 
 .titrepop {
     display: flex;
