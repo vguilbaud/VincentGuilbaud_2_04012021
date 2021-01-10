@@ -234,8 +234,14 @@ form {
    
 }
 .eco,.fam,.chien,.rom{position: relative;}
-.bill-logo:hover,.family-logo:hover,.heart-logo:hover,.dog-logo:hover{color: black;background-color: #F2F2F2;}
-
+.eco:hover .bill-logo{color: black;background-color: #F2F2F2;}
+.fam:hover .family-logo{color: black;background-color: #F2F2F2}
+.rom:hover .heart-logo{color: black;background-color: #F2F2F2}
+.chien:hover .dog-logo{color: black;background-color: #F2F2F2}
+.eco:hover{cursor: pointer}
+.fam:hover{cursor: pointer}
+.rom:hover{cursor: pointer}
+.chien:hover{cursor: pointer}
 .filtres li,
 .filtres h1 {
     padding: 15px;
