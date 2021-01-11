@@ -76,8 +76,8 @@ header h2 {
     font-size: 1em
 }
 
-header h1 {
-    margin-bottom: 0px
+h1 {
+    margin-bottom: 10px
 }
 
 .inscription a {
@@ -267,6 +267,7 @@ form {
     border-top: #F2F2F2 solid 2px;
     border-radius: 20px 0px 0px 20px
 }
+.search-logo{display: none}
 
 .textfiltre {
     border-right: 2px #F2F2F2 solid;
@@ -338,8 +339,7 @@ form {
     cursor: pointer
 }
 
-.filtres li,
-.filtres h1 {
+.filtres li{
     padding: 15px;
     font-weight: bold;
 }
@@ -415,12 +415,6 @@ form {
     box-shadow: 0px 0px 6px #A9B2B8
 }
 
-.hebdefaut h1,
-hebdefaut h2,
-hebdefaut p {
-    padding: 0px;
-    margin: 0px;
-}
 
 #ancreheb,
 .scroll {
@@ -573,5 +567,13 @@ aside {
 }
 .entete li{padding-left:0px;padding-right: 0px;padding-top: 0px;padding-bottom: 20px;width: 50%}
 .entete li a{padding-bottom: 20px;margin-bottom: 30px;width: 100%;padding-left: 30%;padding-right: 30%;}
-header h1{margin-top: 15px;margin-bottom: 10px}
+header{margin-left: 15px;}
+header h1{margin-top: 15px}
+.rechercher{visibility: hidden}
+form{position: relative}
+.search-logo{display: inline;position: absolute;color: white;
+    background-color: #0065FC;
+    border-style: none;
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;left:205px;}
 }
