@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
     font-family: 'Raleway';
     src: url('Raleway/static/Raleway-Medium.ttf');
 }
@@ -7,21 +7,23 @@ body {
     font-family: 'Raleway'
 }
 
-nav,header{
+nav,
+header {
     margin-left: 50px;
     margin-right: 50px;
 }
 
 * {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 footer {
     margin-left: 0px;
     margin-right: 0px;
 }
+
 .greystar {
     color: #F2F2F2;
 }
@@ -31,7 +33,6 @@ footer {
 .heart-logo,
 .dog-logo,
 .info-logo,
-.inscription,
 .bluestar {
     color: #0065FC
 }
@@ -42,7 +43,12 @@ footer {
 .dog-logo {
     background-color: #DEEBFF;
 }
-.bluestar,.greystar{font-size: 13px}
+
+.bluestar,
+.greystar {
+    font-size: 13px
+}
+
 h2 {
     font-size: 1.6em;
 }
@@ -58,14 +64,25 @@ li h2 {
 li h3 {
     font-size: 0.8em
 }
-.graph-logo{font-size: 23px}
-header h2{
-    font-weight: normal;margin-top: 0px;margin-bottom: 25px ;font-size: 1em
-}
-header h1{margin-bottom: 0px}
 
-.inscription {
-    font-weight: bold
+.graph-logo {
+    font-size: 23px
+}
+
+header h2 {
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    font-size: 1em
+}
+
+header h1 {
+    margin-bottom: 0px
+}
+
+.inscription a {
+    font-weight: bold;
+    color: #0065FC
 }
 
 .hebdefaut,
@@ -79,7 +96,7 @@ a {
     color: black
 }
 
-li{
+li {
     list-style: none;
     padding: 0
 }
@@ -89,7 +106,8 @@ aside {
     border-radius: 20px
 }
 
-.info-logo {font-size: 12px;
+.info-logo {
+    font-size: 12px;
     border: 2px #F2F2F2 solid;
     border-radius: 50%;
     padding-left: 10px;
@@ -97,8 +115,6 @@ aside {
     padding-bottom: 7px;
     padding-top: 7px;
     margin: 10px;
-    text-align: center;
-    justify-content: center
 }
 
 img {
@@ -107,13 +123,7 @@ img {
 }
 
 #logoreservia {
-    width: 105px;
-}
-
-
-
-.hebergements {
-    display: flex;flex-wrap:wrap;justify-content: space-between; margin-right: 50px;margin-left: 50px;
+    min-width: 105px;
 }
 
 .entete {
@@ -122,19 +132,30 @@ img {
     align-items: center
 }
 
-.entete ul {
-    display: flex;
+.instel {
+    display: none;color:#0065FC;font-weight: bold
 }
+.toptel{display: flex;justify-content: space-between;align-items: center;}
 
-.entete li {
+.entete ul {
+    display: flex;margin-top: 0px;margin-bottom: 0px;padding-left: 0px
+}
+.entete li{
+    padding:0px;
+    text-align: center;
+    margin:0px}
+.entete li a{
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 15px;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.entete li:hover a{
+    color: #0065FC;border-top: #0065FC solid;padding-top: 30px;}
 
 .activites {
     min-width: 95%;
@@ -144,39 +165,69 @@ img {
     width: 20.8%;
     min-width: 300px;
 }
-@media all and (min-width: 1300px){
-.activites ul {
-    display: flex;flex-direction: column;
-    flex-wrap: wrap;justify-content: space-between;max-height: 500px 
-}}
-@media all and (max-width: 1301px){
-.activites ul {
-    display: flex;
-    flex-wrap: wrap;justify-content: space-between;
-}
-.activites img{height: 170px}}
 
-.activites ul h2{box-shadow: 0px 2px 2px #F2F2F2;border-radius: 0px 0px 25px 25px; padding-bottom: 15px;padding-left: 25px}
+@media all and (min-width: 1300px) {
+    .activites ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-height: 500px
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .activites ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .activites img {
+        height: 170px
+    }
+}
+
+.activites ul h2 {
+    box-shadow: 0px 2px 2px #F2F2F2;
+    border-radius: 0px 0px 25px 25px;
+    padding-bottom: 15px;
+    padding-left: 25px
+}
 
 .activites img {
     width: 100%;
     border-radius: 25px 25px 0px 0px;
 }
-#ancreact{padding-left: 40px}
 
-.footer{display: flex;flex-wrap: wrap;margin-left: 50px}
-footer div{display: flex;flex-direction: column;margin-right: 200px}
-
-footer li{margin-top: 15px}
-footer ul{padding-left: 0px;margin-top: 0px}
-footer h2{margin-bottom: 0px}
-
-.entete li a:hover {
-    color: #0065FC;
-    border-top: #0065FC solid;
-    padding-top: 30px
+#ancreact {
+    padding-left: 40px
 }
 
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px
+}
+
+footer li {
+    margin-top: 15px
+}
+
+footer ul {
+    padding-left: 0px;
+    margin-top: 0px
+}
+
+footer h2 {
+    margin-bottom: 0px
+}
 
 form {
     display: flex;
@@ -217,38 +268,91 @@ form {
     border-radius: 20px 0px 0px 20px
 }
 
-.textfiltre{
+.textfiltre {
     border-right: 2px #F2F2F2 solid;
     border-top: 2px #F2F2F2 solid;
     border-bottom: 2px #F2F2F2 solid;
     border-radius: 0px 40px 40px 0px;
     padding: 13px;
-    padding-left: 30px;position: relative;left: -19px
+    padding-left: 30px;
+    position: relative;
+    left: -19px
 }
-.filtresflex{display: flex;align-items: center}
-@media all and (max-width: 500px){
-    .filtresflex{display: flex;flex-direction: column;align-items: center;}
+
+.filtresflex {
+    display: flex;
+    align-items: center
 }
-.filtres ul{
-    display: flex;flex-wrap: wrap;
-   
+
+.filtres ul {
+    display: flex;
+    flex-wrap: wrap;
+
 }
-.eco,.fam,.chien,.rom{position: relative;}
-.eco:hover .bill-logo{color: black;background-color: #F2F2F2;}
-.fam:hover .family-logo{color: black;background-color: #F2F2F2}
-.rom:hover .heart-logo{color: black;background-color: #F2F2F2}
-.chien:hover .dog-logo{color: black;background-color: #F2F2F2}
-.eco:hover{cursor: pointer}
-.fam:hover{cursor: pointer}
-.rom:hover{cursor: pointer}
-.chien:hover{cursor: pointer}
+
+.filtres p {
+    display: flex;
+    align-items: center;
+}
+
+.eco,
+.fam,
+.chien,
+.rom {
+    position: relative;
+}
+
+.eco:hover .bill-logo {
+    color: black;
+    background-color: #F2F2F2;
+}
+
+.fam:hover .family-logo {
+    color: black;
+    background-color: #F2F2F2
+}
+
+.rom:hover .heart-logo {
+    color: black;
+    background-color: #F2F2F2
+}
+
+.chien:hover .dog-logo {
+    color: black;
+    background-color: #F2F2F2
+}
+
+.eco:hover {
+    cursor: pointer
+}
+
+.fam:hover {
+    cursor: pointer
+}
+
+.rom:hover {
+    cursor: pointer
+}
+
+.chien:hover {
+    cursor: pointer
+}
+
 .filtres li,
 .filtres h1 {
     padding: 15px;
     font-weight: bold;
 }
-.filtresflex span{float: left}
-.filtres p{margin-top: 0px;margin-bottom: 30px}
+
+.filtresflex span {
+    float: left
+}
+
+.filtres p {
+    margin-top: 0px;
+    margin-bottom: 30px
+}
+
 .bill-logo,
 .family-logo,
 .heart-logo,
@@ -257,40 +361,155 @@ form {
     border-radius: 50%;
 }
 
-.hebdefaut img {border-radius: 25px 25px 0px 0px;min-height: 120px
-    
+.hebergements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.hebdefaut img {
+    border-radius: 25px 25px 0px 0px;
+    min-height: 120px
 }
 
 .hebdefaut {
-max-width: 65%;min-width: 420px;padding-right: 20px;margin-bottom: 30px
+    max-width: 65%;
+    min-width: 420px;
+    padding-right: 20px;
+    margin-bottom: 30px
 }
 
-.hebdefaut ul{
-    display: flex;flex-wrap: wrap;justify-content: space-between;margin-top: 2px;margin-bottom: 2px
+.hebdefaut ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    align-items: center;
+    padding-left: 0px
 }
-.hebdefaut li h2,.hebdefaut li h3,.hebdefaut li p{margin-top: 3px;margin-bottom: 3px;padding-left: 14px}
-.hebdefaut h3{font-weight: normal}
+
+.hebdefaut li h2,
+.hebdefaut li h3,
+.hebdefaut li p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 14px
+}
+
+.hebdefaut h3 {
+    font-weight: normal
+}
+
 .hebdefaut li {
     max-width: 18%;
-    min-width: 240px;padding-top: 0px;background-color: white;border: white solid 4px;
-    border-radius:25px 25px 25px 25px; padding:0px;margin-bottom: 20px;box-shadow: 0px 0px 6px #A9B2B8
+    min-width: 240px;
+    padding-top: 0px;
+    background-color: white;
+    border: white solid 4px;
+    border-radius: 25px 25px 25px 25px;
+    padding: 0px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 6px #A9B2B8
 }
-.hebdefaut h1,hebdefaut h2, hebdefaut p{padding:0px;margin: 0px;}
-#ancreheb, .scroll{margin-left: 40px;}
-.scroll{margin-top: 0px;margin-bottom: 0px;padding-bottom: 15px;padding-top: 12px;font-weight: bold}
 
-aside li{background-color: white;border-radius:25px 25px 25px 25px;
-    margin-bottom: 15px;border: white solid 2px;border-bottom: 1px;box-shadow: 0px 0px 6px #A9B2B8}
-aside img{border-radius: 25px 0px 0px 25px;border-left:white solid 3px;border-top: white solid 2px}
-.textpop{padding-left: 13px;padding-right: 35px;}
-aside li a{display: flex;align-items: center}
-aside ul{display: flex;flex-direction:column;flex-wrap: wrap;justify-content: space-between;margin-bottom: 2px;margin-top: 2px}
-aside h3{margin-top: 0px}
-.textpop h2{margin-bottom: 5px;}
-.textpop h3{font-weight: normal}
-.textpop p{padding-top: 20px;}
-aside{padding-right: 20px;min-width:30%;max-width:420px;margin-bottom: 30px; padding-bottom: 10px;}
-@media all and (max-width: 1350px){aside ul{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-between}aside{max-width: 1350px;min-width: 80%;}aside li{max-width: 340px}}
+.hebdefaut h1,
+hebdefaut h2,
+hebdefaut p {
+    padding: 0px;
+    margin: 0px;
+}
+
+#ancreheb,
+.scroll {
+    padding-left: 40px;
+}
+
+.scroll {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    padding-top: 12px;
+    font-weight: bold
+}
+
+aside li {
+    background-color: white;
+    border-radius: 25px 25px 25px 25px;
+    margin-bottom: 15px;
+    border: white solid 2px;
+    border-bottom: 1px;
+    box-shadow: 0px 0px 6px #A9B2B8
+}
+
+aside img {
+    border-radius: 25px 0px 0px 25px;
+    border-left: white solid 3px;
+    border-top: white solid 2px
+}
+
+.textpop {
+    padding-left: 13px;
+    padding-right: 35px;
+}
+
+aside li a {
+    display: flex;
+    align-items: center
+}
+
+aside ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    margin-top: 2px
+}
+
+aside h3 {
+    margin-top: 0px
+}
+
+.textpop h2 {
+    margin-bottom: 5px;
+}
+
+.textpop h3 {
+    font-weight: normal
+}
+
+.textpop p {
+    padding-top: 20px;
+}
+
+aside {
+    padding-right: 20px;
+    min-width: 30%;
+    max-width: 420px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+@media all and (max-width: 1350px) {
+    aside ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
+
+    aside {
+        max-width: 1350px;
+        min-width: 80%;
+    }
+
+    aside li {
+        max-width: 340px
+    }
+}
 
 .titrepop {
     display: flex;
@@ -300,9 +519,59 @@ aside{padding-right: 20px;min-width:30%;max-width:420px;margin-bottom: 30px; pad
     margin-right: 10px;
     margin-left: 30px;
 }
-.titrepop h2{margin-top: 10px; margin-bottom: 13px}
-.graph-logo{margin-top: 12px;margin-bottom: 13px}
+
+.titrepop h2 {
+    margin-top: 10px;
+    margin-bottom: 13px
+}
+
+.graph-logo {
+    margin-top: 12px;
+    margin-bottom: 13px
+}
+
 .imagepop {
-   
+
     min-width: 130px
+}
+
+@media all and (max-width: 600px) {
+    .filtresflex {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    nav,
+    header {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .filtres ul {
+        padding-left: 0px
+    }
+
+    .filtresflex h2 {
+        padding-left: 18px
+    }
+
+    .hebergements {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .inscription {
+        display: none
+    }
+    .instel{display: inline}
+    .entete{flex-direction: column;align-items: stretch;}
+    .entete ul{display:flex;padding-left: 0px;align-items: stretch;justify-content: stretch}
+    .entete li:hover a{
+    color: #0065FC;
+    border-top: none;
+    padding-top: 0px;border-bottom: #0065FC solid 2px;
+}
+.entete li{padding-left:0px;padding-right: 0px;padding-top: 0px;padding-bottom: 20px;width: 50%}
+.entete li a{padding-bottom: 20px;margin-bottom: 30px;width: 100%;padding-left: 30%;padding-right: 30%;}
+header h1{margin-top: 15px;margin-bottom: 10px}
 }
