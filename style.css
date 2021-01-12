@@ -176,9 +176,9 @@ font-size: 1em
 .filtres h2{font-weight: bold;font-size: 1.2em;padding-right: 30px;padding-bottom: 40px}
 
 .textfiltre {font-weight: bold;font-size: 1.2em;
-    border-right: 2px #F2F2F2 solid;
-    border-top: 2px #F2F2F2 solid;
-    border-bottom: 2px #F2F2F2 solid;
+    border-right: 2px #d9d9d9 solid;
+    border-top: 2px #d9d9d9 solid;
+    border-bottom: 2px #d9d9d9 solid;
     border-radius: 0px 40px 40px 0px;
     padding-bottom: 15px;
     padding-top: 15px;
@@ -381,47 +381,65 @@ footer div {
 /*-------------------------Média query Téléphone et petites tailles-----------------*/
 
 @media all and (max-width: 600px) {
-    body{margin-right: 0px;margin-left: 0px;}
-    .filtresflex {
-        display: flex;
-        flex-direction: column;
-        align-items: baseline;
-    }
-
-    .filtres ul {
-        padding-left: 0px
-    }
-
-    .filtresflex h2 {
-        padding-left: 18px
-    }
-    .inscription {
-        display: none
-    }
+.entete,.hebergements,.activites{padding-right: 0px;padding-left: 0px}
+/*-------------------------Logo et nav-------------------------------------*/
     .instel{display: inline}
-    .entete{flex-direction: column;align-items: stretch;}
+#logoreservia,.instel{padding: 20px;}
+    .entete{flex-direction: column;align-items: stretch;padding-top: 0px;padding-bottom: 15px}
     .entete ul{display:flex;padding-left: 0px;align-items: stretch;justify-content: stretch}
     .entete li:hover a{
     color: #0065FC;
     border-top: none;
     padding-top: 0px;border-bottom: #0065FC solid 2px;
 }
+    .inscription {
+        display: none
+    }
 .entete li{padding-left:0px;padding-right: 0px;padding-top: 0px;padding-bottom: 20px;width: 50%}
 .entete li a{padding-bottom: 20px;margin-bottom: 30px;width: 100%;padding-left: 30%;padding-right: 30%;}
+    .filtresflex {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+/*-----------------------Champ de Recherche--------------------------------------*/
+header{padding-left: 20px}
 .rechercher{display: none}
-form{position: relative}
+form{position: relative;padding-bottom: 25px}
 .search-logo{display: inline;position: absolute;color: white;
-    background-color: #0065FC;
+    background-color: #0065FC;font-size: 1.3em;
     border-style: none;
-    padding: 15px;
-    border-radius: 10px 10px 10px 10px;left:205px;}
-.hebergements{flex-direction: column-reverse}
-aside{border-radius: 0px 0px 0px 0px;width: 100%}
+    padding: 16px;
+    border-radius: 10px 10px 10px 10px;left:265px;}
+
+#citylocation {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;padding-right: 30px
+}
+
+.map-logo {font-size: 1.05em;
+    padding-left: 17px;
+    padding-top: 14px;
+    padding-right: 17px;
+    padding-bottom: 17px;
+}
+/*-----------------------Filtres--------------------------------------*/
+.filtres{padding-left: 20px;padding-right: 20px}
+.filtres li{padding-bottom: 50px}
+/*-----------------------Hébergements populaire------------------------------------------*/
+.hebergements{flex-direction: column-reverse;width: 100%}
+aside{border-radius: 0px 0px 0px 0px;width: 93%;padding: 20px}
+.titrepop{padding-top: 20px}
+.titrepop h2{font-size: 1.4em}
+/*-----------------------Hébergements normaux-------------------------------------------*/
 .hebdefaut{border-radius: 0px 0px 0px 0px;width: 100%;background-color: white;padding-right: 0px;}
-.hebdefaut li{min-width: 90%;max-height: 200px}
-.hebdefaut li img{max-height: 110px;min-width: 100%;object-fit: cover}
-.activites ul li{min-width: 90%}
+.hebdefaut li{width: 95%;height: 200px}
+.hebdefaut li img{height: 120px;width: 100%;object-fit: cover}
+/*-----------------------Activités--------------------------------------------*/
+.activites ul li{width: 90%}
 .activites ul{padding-left: 0px;align-items: center;}
+/*------------------------Footer------------------------------------------*/
 .footer {margin-left:15px;padding-bottom: 40px}
 .footer div{margin-right: 50px;}
 }
