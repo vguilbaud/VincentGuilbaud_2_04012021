@@ -173,7 +173,7 @@ font-size: 1em
 
 
 .filtres{padding-left: 50px;padding-right: 50px}
-.filtres h2{font-weight: bold;font-size: 1.2em;padding-right: 30px}
+.filtres h2{font-weight: bold;font-size: 1.2em;padding-right: 30px;padding-bottom: 40px}
 
 .textfiltre {font-weight: bold;font-size: 1.2em;
     border-right: 2px #F2F2F2 solid;
@@ -190,14 +190,14 @@ font-size: 1em
 
 .filtresflex {
     display: flex;
-    align-items: center;padding-bottom:40px;
+    align-items: center;padding-bottom: 10px
 }
 
 .filtres ul {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
-.filtres li{padding-right: 10px}
+.filtres li{padding-bottom: 40px}
 
 .eco,
 .fam,
