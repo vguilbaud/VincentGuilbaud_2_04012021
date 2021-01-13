@@ -1,18 +1,86 @@
 /* reset css*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -20,30 +88,54 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
-ol, ul, li{
+
+ol,
+ul,
+li {
     list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
     quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-img{display: block;border: 0;}
+
+img {
+    display: block;
+    border: 0;
+}
 
 /***************Fin Reset****************/
 
@@ -56,7 +148,11 @@ body {
     font-family: 'Raleway'
 }
 
-.conteneur{max-width: 1440px;width: 100%;margin: 0 auto}
+.conteneur {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto
+}
 
 .greystar {
     color: #F2F2F2;
@@ -108,19 +204,42 @@ a {
 .entete {
     display: flex;
     justify-content: space-between;
-    align-items: center;padding: 50px
+    align-items: center;
+    padding: 50px
 }
 
 .instel {
-    display: none;color:#0065FC;font-weight: bold
+    display: none;
+    color: #0065FC;
+    font-weight: bold
 }
-.toptel{display: flex;justify-content: space-between;align-items: center;}
 
-.entete ul{display: flex}
-.entete li{padding-left: 20px}
-.entete li:hover a{
-    color: #0065FC;border-top: #0065FC solid;padding-top: 50px;}
-.entete li a{padding-top:50px;padding-left: 30px;padding-right: 30px}
+.toptel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entete ul {
+    display: flex
+}
+
+.entete li {
+    padding-left: 20px
+}
+
+.entete li:hover a {
+    color: #0065FC;
+    border-top: #0065FC solid;
+    padding-top: 50px;
+}
+
+.entete li a {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
 .inscription a {
     font-weight: bold;
     color: #0065FC
@@ -128,11 +247,25 @@ a {
 
 /*----------------------------------------Début Header : Champ de recherche--------------------------*/
 
-header{padding-right: 50px;padding-left: 50px;}
-h1{font-size: 1.4em;font-weight: bold;padding-bottom: 10px}
-header h2{padding-bottom: 20px}
+header {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-bottom: 10px
+}
+
+header h2 {
+    padding-bottom: 20px
+}
+
 form {
-    display: flex;padding-bottom: 50px
+    display: flex;
+    padding-bottom: 50px;
+    position: relative
 }
 
 .rechercher {
@@ -140,24 +273,30 @@ form {
     background-color: #0065FC;
     border-style: none;
     font-weight: bold;
-    padding: 20px;padding-right:17px; 
+    padding-left: 20px;
+    padding-top: 22px;
+    padding-bottom: 21px;
+    padding-right: 17px;
     border-radius: 0px 20px 20px 0px;
-font-size: 1em
+    font-size: 1em
 }
 
 #citylocation {
-    font-weight: bold;font-size: 1em;
+    font-weight: bold;
+    font-size: 1em;
     border-bottom: #F2F2F2 solid 2px;
     border-top: #F2F2F2 solid 2px;
     border-right: none;
     border-left: none;
     padding-top: 20px;
     padding-bottom: 19px;
-    padding-left: 20px;padding-right: 35px
+    padding-left: 20px;
+    padding-right: 35px
 }
 
 .map-logo {
-    background-color: #F2F2F2;font-size: 1.15em;
+    background-color: #F2F2F2;
+    font-size: 1.15em;
     padding-left: 19px;
     padding-top: 17px;
     padding-right: 19px;
@@ -166,16 +305,30 @@ font-size: 1em
     border-top: #F2F2F2 solid 2px;
     border-radius: 20px 0px 0px 20px
 }
-.search-logo{display: none}
+
+.search-logo {
+    display: none
+}
 
 
 /*----------------------------------Filtres---------------------------------------------------*/
 
 
-.filtres{padding-left: 50px;padding-right: 50px}
-.filtres h2{font-weight: bold;font-size: 1.2em;padding-right: 30px;padding-bottom: 40px}
+.filtres {
+    padding-left: 50px;
+    padding-right: 50px
+}
 
-.textfiltre {font-weight: bold;font-size: 1.2em;
+.filtres h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-right: 30px;
+    padding-bottom: 40px
+}
+
+.textfiltre {
+    font-weight: bold;
+    font-size: 1.2em;
     border-right: 2px #d9d9d9 solid;
     border-top: 2px #d9d9d9 solid;
     border-bottom: 2px #d9d9d9 solid;
@@ -184,20 +337,22 @@ font-size: 1em
     padding-top: 15px;
     padding-left: 39px;
     padding-right: 20px;
-    position: relative;
-    left: -23px
 }
 
 .filtresflex {
     display: flex;
-    align-items: center;padding-bottom: 10px
+    align-items: center;
+    padding-bottom: 10px
 }
 
 .filtres ul {
     display: flex;
     flex-wrap: wrap
 }
-.filtres li{padding-bottom: 40px}
+
+.filtres li {
+    padding-bottom: 40px
+}
 
 .eco,
 .fam,
@@ -206,12 +361,18 @@ font-size: 1em
     position: relative;
 }
 
-.eco:hover .bill-logo,.fam:hover .family-logo,.rom:hover .heart-logo,.chien:hover .dog-logo {
+.eco:hover .bill-logo,
+.fam:hover .family-logo,
+.rom:hover .heart-logo,
+.chien:hover .dog-logo {
     color: black;
     background-color: #F2F2F2;
 }
 
-.eco:hover,.fam:hover,.rom:hover,.chien:hover {
+.eco:hover,
+.fam:hover,
+.rom:hover,
+.chien:hover {
     cursor: pointer
 }
 
@@ -219,16 +380,36 @@ font-size: 1em
 .family-logo,
 .heart-logo,
 .dog-logo {
-    padding: 16px;
-    border-radius: 50%;font-size: 1.2em;font-weight: bold
+    padding: 17px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: relative;
+    left: 29px
 }
-.family-logo{padding-right: 19px;padding-left: 19px;font-size: 1.3em;padding-top: 15px}
-.dog-logo{font-size: 1.3em;padding-top: 15px;padding-bottom: 15px}
-.heart-logo{padding-left: 17px;padding-right: 17px}
+
+.family-logo {
+    padding-right: 19px;
+    padding-left: 19px;
+    font-size: 1.3em;
+    padding-top: 16px
+}
+
+.dog-logo {
+    font-size: 1.3em;
+    padding-top: 15px;
+    padding-bottom: 17px
+}
+
+.heart-logo {
+    padding-left: 17px;
+    padding-right: 17px
+}
 
 .filtres p {
     display: flex;
-    align-items: center;padding-bottom: 30px;
+    align-items: center;
+    padding-bottom: 30px;
 }
 
 .info-logo {
@@ -262,17 +443,26 @@ aside {
 }
 
 .hebdefaut img {
-    border-radius: 25px 25px 0px 0px;width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
 }
 
 .hebdefaut {
     max-width: 900px;
-    width: 65%;
-    padding: 1.5%;padding-bottom: 0px;margin-right: 3%;
+    width: 62%;
+    padding: 1.5%;
+    padding-bottom: 0px;
+    margin-right: 3%;
 }
-#ancreheb{font-weight: bold;font-size: 1.3em;padding: 1.4%}
+
+#ancreheb {
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 1.4%
+}
+
 .hebdefaut li {
-    width: 28%;
+    width: 30%;
     min-width: 200px;
     min-height: 160px;
     background-color: white;
@@ -281,27 +471,48 @@ aside {
     margin-bottom: 20px;
     box-shadow: 0px 0px 6px #A9B2B8
 }
-.hebdefaut li h2{font-weight: bold;padding: 3%}
-.hebdefaut li h3{font-size: 0.8em;padding: 3%;padding-top: 0px;}
-.hebdefaut li p{font-size: 0.7em;padding:3%;padding-top: 0px}
+
+.hebdefaut li h2 {
+    font-weight: bold;
+    padding: 3%
+}
+
+.hebdefaut li h3 {
+    font-size: 0.8em;
+    padding: 3%;
+    padding-top: 0px;
+}
+
+.hebdefaut li p {
+    font-size: 0.7em;
+    padding: 3%;
+    padding-top: 0px
+}
 
 .hebdefaut ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;align-items: center;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 2px;
     margin-bottom: 2px;
     align-items: center;
-    padding:1%;
-padding-bottom: 3%
+    padding: 1%;
+    padding-bottom: 3%
 }
 
 .scroll {
-    font-weight: bold
+    font-weight: bold;
+    padding-bottom: 2%;
 }
 
 /*--------------------------Hébergements populaires------------------------------*/
-aside{padding:1.5%;width: 30%}
+
+aside {
+    padding: 1.5%;
+    width: 30%
+}
+
 aside li {
     background-color: white;
     border-radius: 25px 25px 25px 25px;
@@ -313,133 +524,397 @@ aside li {
 
 aside img {
     border-radius: 25px 0px 0px 25px;
-    width: 100%;height: auto;
+    width: 100%;
+    height: auto;
 }
 
 aside li a {
-    display: flex;width: 100%;justify-content: stretch
+    display: flex;
+    width: 100%;
+    justify-content: stretch
 }
 
 aside ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;align-items: center}
+    justify-content: space-between;
+    align-items: center
+}
 
-.imagepop{width:35%;height: 100%}
-.textpop{width: 65%}
-.textpop h2{padding:7%;font-weight: bold;padding-bottom: 3%;}
-.textpop h3{padding:7%;padding-top: 0px;font-size: 0.8em}
-.textpop p{padding-left:7%;padding-top: 7%;font-size: 0.7em}
+.imagepop {
+    width: 35%;
+    height: 100%
+}
+
+.textpop {
+    width: 65%
+}
+
+.textpop h2 {
+    padding: 7%;
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+
+.textpop h3 {
+    padding: 7%;
+    padding-top: 0px;
+    font-size: 0.8em
+}
+
+.textpop p {
+    padding-left: 7%;
+    padding-top: 7%;
+    font-size: 0.7em
+}
 
 
 .titrepop {
     display: flex;
     justify-content: space-between;
     align-items: center;
-font-weight: bold
+    font-weight: bold
 }
-.titrepop h2{font-size: 1.3em}
+
+.titrepop h2 {
+    font-size: 1.3em
+}
 
 /*---------------------------------------Activités---------------------------------------*/
 
-#ancreact{font-weight: bold;font-size: 1.4em;padding-bottom: 25px}
-.activites {padding-left: 50px;padding-right: 50px;padding-bottom: 50px
+#ancreact {
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-bottom: 25px
 }
-.activites img{width: 100%;border-radius: 25px 25px 0px 0px}
-.activites ul h2 {font-weight: bold;
+
+.activites {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px
+}
+
+.activites img {
+    width: 100%;
+    border-radius: 25px 25px 0px 0px
+}
+
+.activites ul h2 {
+    font-weight: bold;
     box-shadow: 0px 2px 2px #F2F2F2;
     border-radius: 0px 0px 25px 25px;
     padding-bottom: 6%;
     padding-top: 6%;
-    padding-left: 8%}
-.activites ul{width: 22%}
-.activites li{
+    padding-left: 8%
+}
+
+.activites ul {
+    width: 22%
+}
+
+.activites li {
     width: 100%;
     border-radius: 25px 25px 25px 25px;
 }
-.flexact{display: flex;justify-content: space-between;flex-wrap: wrap}
-.pomfri,.damelong{display: flex;flex-direction: column;justify-content: space-between}
+
+.flexact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.pomfri,
+.damelong {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
 
 
 
 /*-------------------------------------Footer-----------------------------------------*/
-footer{padding-right: 50px;padding-left: 50px;padding-top: 45px;padding-bottom: 45px}
+footer {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 45px;
+    padding-bottom: 45px
+}
+
 .footer {
     display: flex;
-    flex-wrap: wrap;padding-left: 1%
+    flex-wrap: wrap;
+    padding-left: 1%
 }
-footer h2{font-weight: bold;font-size: 1.2em;padding-bottom: 20px}
-footer li{padding-bottom:15px }
+
+footer h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 20px
+}
+
+footer li {
+    padding-bottom: 15px
+}
 
 footer div {
     display: flex;
     flex-direction: column;
-    padding-right: 200px
+    padding-right: 10%
+}
+/*--------------------------------Média query tablettes et petites tailles d'écran----------------------------------------------*/
+
+@media all and (max-width: 1030px) {
+    .hebergements {
+        flex-direction: column-reverse;
+        width: 85%;
+        margin-right: 0px;
+        padding-bottom: 20px
+    }
+
+    aside {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    aside ul {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+    }
+
+    aside li {
+        width: 30%;
+        margin-top: 0px
+    }
+
+    .textpop h2 {
+        padding: 4%;
+        font-weight: bold;
+        padding-bottom: 2%;
+        font-size: 0.85em
+    }
+
+    .textpop h3 {
+        padding: 4%;
+        padding-top: 0px;
+        font-size: 0.7em
+    }
+
+    .textpop p {
+        padding-left: 4%;
+        padding-top: 4%;
+        font-size: 0.6em
+    }
+
+
+    .titrepop {
+        width: 90%;
+        padding-bottom: 10px
+    }
+
+
+        .hebdefaut {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .hebdefaut li{width:30%}
+
+    .activites {
+        width: 88%
+    }
+
+    .flexact h2 {
+        font-size: 0.75em;
+        padding-bottom: 3%;
+        padding-top: 3%;
+        padding-left: 4%
+    }
+    #ancreact{font-size: 1em;padding-top: 0px;padding-bottom: 20px;}
+footer div{padding-right: 5%}
+footer h2{font-size: 1.1em}
+footer li{font-size:0.8em}
 }
 
-/*-------------------------Média query Téléphone et petites tailles-----------------*/
+/*------------------------------------------Média query Téléphone et petites tailles---------------------------------------------*/
 
-@media all and (max-width: 600px) {
-.entete,.hebergements,.activites{padding-right: 0px;padding-left: 0px}
-/*-------------------------Logo et nav-------------------------------------*/
-    .instel{display: inline}
-#logoreservia,.instel{padding: 20px;}
-    .entete{flex-direction: column;align-items: stretch;padding-top: 0px;padding-bottom: 15px}
-    .entete ul{display:flex;padding-left: 0px;align-items: stretch;justify-content: stretch}
-    .entete li:hover a{
-    color: #0065FC;
-    border-top: none;
-    padding-top: 0px;border-bottom: #0065FC solid 2px;
-}
+@media all and (max-width: 620px) {
+
+    .entete,
+    .hebergements,
+    .activites {
+        padding-right: 0px;
+        padding-left: 0px
+    }
+
+    /*-------------------------Logo et nav-------------------------------------*/
+    .instel {
+        display: inline
+    }
+
+    #logoreservia,
+    .instel {
+        padding: 20px;
+    }
+
+    .entete {
+        flex-direction: column;
+        align-items: stretch;
+        padding-top: 0px;
+        padding-bottom: 15px
+    }
+
+    .entete ul {
+        display: flex;
+        padding-left: 0px;
+        align-items: stretch;
+        justify-content: stretch
+    }
+
+    .entete li:hover a {
+        color: #0065FC;
+        border-top: none;
+        padding-top: 0px;
+        border-bottom: #0065FC solid 2px;
+    }
+
     .inscription {
         display: none
     }
-.entete li{padding-left:0px;padding-right: 0px;padding-top: 0px;padding-bottom: 20px;width: 50%}
-.entete li a{padding-bottom: 20px;margin-bottom: 30px;width: 100%;padding-left: 30%;padding-right: 30%;}
+
+    .entete li {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        width: 50%
+    }
+
+    .entete li a {
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        width: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
     .filtresflex {
         display: flex;
         flex-direction: column;
         align-items: baseline;
     }
-/*-----------------------Champ de Recherche--------------------------------------*/
-header{padding-left: 20px}
-.rechercher{display: none}
-form{position: relative;padding-bottom: 25px}
-.search-logo{display: inline;position: absolute;color: white;
-    background-color: #0065FC;font-size: 1.3em;
-    border-style: none;
-    padding: 16px;
-    border-radius: 10px 10px 10px 10px;left:265px;}
 
-#citylocation {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;padding-right: 30px
-}
+    /*-----------------------Champ de Recherche--------------------------------------*/
+    header {
+        padding-left: 20px
+    }
 
-.map-logo {font-size: 1.05em;
-    padding-left: 17px;
-    padding-top: 14px;
-    padding-right: 17px;
-    padding-bottom: 17px;
-}
-/*-----------------------Filtres--------------------------------------*/
-.filtres{padding-left: 20px;padding-right: 20px}
-.filtres li{padding-bottom: 50px}
-/*-----------------------Hébergements populaire------------------------------------------*/
-.hebergements{flex-direction: column-reverse;width: 100%}
-aside{border-radius: 0px 0px 0px 0px;width: 93%;padding: 20px}
-.titrepop{padding-top: 20px}
-.titrepop h2{font-size: 1.4em}
-/*-----------------------Hébergements normaux-------------------------------------------*/
-.hebdefaut{border-radius: 0px 0px 0px 0px;width: 100%;background-color: white;padding-right: 0px;}
-.hebdefaut li{width: 95%;height: 200px}
-.hebdefaut li img{height: 120px;width: 100%;object-fit: cover}
-/*-----------------------Activités--------------------------------------------*/
-.activites ul li{width: 90%}
-.activites ul{padding-left: 0px;align-items: center;}
-/*------------------------Footer------------------------------------------*/
-.footer {margin-left:15px;padding-bottom: 40px}
-.footer div{margin-right: 50px;}
+    .rechercher {
+        display: none
+    }
+
+    form {
+        position: relative;
+        padding-bottom: 25px
+    }
+
+    .search-logo {
+        display: inline;
+        position: absolute;
+        color: white;
+        background-color: #0065FC;
+        font-size: 1.3em;
+        border-style: none;
+        padding: 16px;
+        padding-bottom: 13px;
+        border-radius: 10px 10px 10px 10px;
+        left: 255px;
+    }
+
+    #citylocation {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 30px
+    }
+
+    .map-logo {
+        font-size: 1.05em;
+        padding-left: 17px;
+        padding-top: 14px;
+        padding-right: 17px;
+        padding-bottom: 17px;
+    }
+
+    /*-----------------------Filtres--------------------------------------*/
+    .filtres {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+
+    .filtres li {
+        padding-bottom: 50px
+    }
+
+    /*-----------------------Hébergements populaire------------------------------------------*/
+    .hebergements {
+        flex-direction: column-reverse;
+        width: 100%
+    }
+
+    aside {
+        border-radius: 0px 0px 0px 0px;
+        width: 93%;
+        padding: 20px
+    }
+
+    .titrepop {
+        padding-top: 20px
+    }
+
+    .titrepop h2 {
+        font-size: 1.4em
+    }
+
+    /*-----------------------Hébergements normaux-------------------------------------------*/
+    .hebdefaut {
+        border-radius: 0px 0px 0px 0px;
+        width: 100%;
+        background-color: white;
+        padding-right: 0px;
+    }
+
+    .hebdefaut li {
+        width: 95%;
+        height: 200px
+    }
+
+    .hebdefaut li img {
+        height: 120px;
+        width: 100%;
+        object-fit: cover
+    }
+
+    /*-----------------------Activités--------------------------------------------*/
+    .activites ul li {
+        width: 90%
+    }
+
+    .activites ul {
+        padding-left: 0px;
+        align-items: center;
+    }
+
+    /*------------------------Footer------------------------------------------*/
+    .footer {
+        margin-left: 15px;
+        padding-bottom: 40px
+    }
+
+    .footer div {
+        margin-right: 50px;
+    }
 }

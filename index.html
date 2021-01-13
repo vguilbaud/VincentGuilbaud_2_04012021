@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="Fontawesome/css/all.css">
     <title>Reservia Vacances</title>
@@ -22,7 +23,7 @@
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <h2>En plein centre ville ou en pleine nature</h2>
         <form method="post" action="traitement.php">
-            <p><label for="citylocation"><span class="map-logo"><i class="fas fa-map-marker-alt"></i></span></label><input type="text" name="citylocation" id="citylocation" value="Marseille, France"></p><input type="submit" value="Rechercher" class="rechercher"><p class="search-logo"><i class="fas fa-search"></i></p>
+            <p><label for="citylocation"><span class="map-logo"><i class="fas fa-map-marker-alt"></i></span></label><input type="text" name="citylocation" id="citylocation" value="Marseille, France"><button class="rechercher">Rechercher</button><button class="search-logo"><i class="fas fa-search"></i></button>
         </form>
     </header>
     <nav class="filtres">
@@ -169,8 +170,6 @@
                 </a></li>
             </ul>
             </div>
-        </ul>
-    </div>
     </section>
     <footer>
         <nav class="footer">
