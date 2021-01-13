@@ -463,8 +463,6 @@ aside {
 
 .hebdefaut li {
     width: 30%;
-    min-width: 200px;
-    min-height: 160px;
     background-color: white;
     border: white solid 4px;
     border-radius: 25px 25px 25px 25px;
@@ -548,25 +546,19 @@ aside ul {
 }
 
 .textpop {
-    width: 65%
-}
+    width: 65%;display: flex;flex-direction: column;justify-content: space-between;align-items: baseline;padding: 3%;}
 
 .textpop h2 {
-    padding: 7%;
     font-weight: bold;
-    padding-bottom: 3%;
+    font-size: 1.1em;
 }
 
 .textpop h3 {
-    padding: 7%;
-    padding-top: 0px;
-    font-size: 0.8em
+    font-size: 0.9em
 }
 
 .textpop p {
-    padding-left: 7%;
-    padding-top: 7%;
-    font-size: 0.7em
+    font-size: 0.8em;padding-top: 2%
 }
 
 
@@ -579,6 +571,17 @@ aside ul {
 
 .titrepop h2 {
     font-size: 1.3em
+}
+
+/*--Arrangement pour garder les hébergements cote à cote pour les petits laptop*/
+
+@media all and (max-width: 1150px){
+    .hebdefaut li h2{font-size: 0.8em;padding:1.5%;padding-left: 8px;}
+    .hebdefaut li h3{font-size: 0.7em;padding:1.5%;padding-left: 8px}
+    .hebdefaut li p{font-size:0.6em;padding:1.5%;padding-left: 8px}
+    .textpop h2 {padding:4%;padding-bottom: 2%;font-size: 0.9em}
+    .textpop h3{padding: 4%;font-size: 0.7em}
+    .textpop p{padding-left: 4%;padding-top: 4%;font-size: 0.6em}
 }
 
 /*---------------------------------------Activités---------------------------------------*/
@@ -664,7 +667,7 @@ footer div {
 }
 /*--------------------------------Média query tablettes et petites tailles d'écran----------------------------------------------*/
 
-@media all and (max-width: 1030px) {
+@media all and (max-width: 900px) {
     .hebergements {
         flex-direction: column-reverse;
         width: 85%;
@@ -689,30 +692,28 @@ footer div {
         width: 30%;
         margin-top: 0px
     }
+    .textpop{padding: 2%;}
 
     .textpop h2 {
-        padding: 4%;
+        padding: 0px;
         font-weight: bold;
-        padding-bottom: 2%;
-        font-size: 0.85em
+        font-size: 0.8em
     }
 
     .textpop h3 {
-        padding: 4%;
-        padding-top: 0px;
+        padding: 0px;
         font-size: 0.7em
     }
 
     .textpop p {
-        padding-left: 4%;
-        padding-top: 4%;
-        font-size: 0.6em
+        padding: 0px;
+        font-size: 0.5em
     }
 
 
     .titrepop {
-        width: 90%;
-        padding-bottom: 10px
+        width: 100%;
+        padding-bottom: 10px;padding-left: 
     }
 
 
@@ -741,7 +742,7 @@ footer li{font-size:0.8em}
 
 /*------------------------------------------Média query Téléphone et petites tailles---------------------------------------------*/
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 650px) {
 
     .entete,
     .hebergements,
@@ -750,7 +751,7 @@ footer li{font-size:0.8em}
         padding-left: 0px
     }
 
-    /*-------------------------Logo et nav-------------------------------------*/
+    /*-------------------------Logo et nav Téléphone-------------------------------------*/
     .instel {
         display: inline
     }
@@ -870,27 +871,24 @@ footer li{font-size:0.8em}
 
     aside {
         border-radius: 0px 0px 0px 0px;
-        width: 93%;
+        width: 95%;
         padding: 20px
     }
 aside ul{flex-direction: column;width: 100%}
-aside li{width: 90%;margin-bottom: 15px}
+aside li{width: 92%;margin-bottom: 15px}
+    .textpop{display: flex;flex-direction: column;justify-content: space-between;align-items: baseline;padding: 2%;}
 .textpop h2 {
-    padding: 5%;
     font-weight: bold;
     padding-bottom: 2%;
     font-size: 1em
 }
 
 .textpop h3 {
-    padding: 5%;
     padding-top: 2px;
-    font-size: 0.8em
+    font-size: 0.9em
 }
 
 .textpop p {
-    padding-left: 5%;
-    padding-top: 10%;
     font-size: 0.85em
 }
     .titrepop {
@@ -904,7 +902,7 @@ aside li{width: 90%;margin-bottom: 15px}
     /*-----------------------Hébergements normaux-------------------------------------------*/
     .hebdefaut {
         border-radius: 0px 0px 0px 0px;
-        width: 100%;
+        width: 95%;
         background-color: white;
         padding-right: 0px;
     }
@@ -915,6 +913,7 @@ aside li{width: 90%;margin-bottom: 15px}
         width: 90%;
         height: 200px
     }
+    .hebdefaut li h2{font-size: 1em}
     .hebdefaut li h3{font-size: 0.9em}
     .hebdefaut li p{font-size: 0.85em}
 
