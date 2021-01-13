@@ -628,7 +628,7 @@ aside ul {
 .damelong {
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 
@@ -741,7 +741,7 @@ footer li{font-size:0.8em}
 
 /*------------------------------------------Média query Téléphone et petites tailles---------------------------------------------*/
 
-@media all and (max-width: 620px) {
+@media all and (max-width: 700px) {
 
     .entete,
     .hebergements,
@@ -809,7 +809,7 @@ footer li{font-size:0.8em}
 
     /*-----------------------Champ de Recherche--------------------------------------*/
     header {
-        padding-left: 20px
+        padding-left: 10px;padding-right: 0px
     }
 
     .rechercher {
@@ -826,27 +826,27 @@ footer li{font-size:0.8em}
         position: absolute;
         color: white;
         background-color: #0065FC;
-        font-size: 1.3em;
+        font-size: 1.15em;
         border-style: none;
-        padding: 16px;
-        padding-bottom: 13px;
-        border-radius: 10px 10px 10px 10px;
-        left: 255px;
+        padding: 14px;
+        padding-bottom: 11px;
+        border-radius: 10px 10px 10px 10px;padding-top: 12px;
+        left: 255px;text-align: center;
     }
 
     #citylocation {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-left: 15px;
-        padding-right: 30px
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 20px
     }
 
     .map-logo {
-        font-size: 1.05em;
-        padding-left: 17px;
-        padding-top: 14px;
-        padding-right: 17px;
-        padding-bottom: 17px;
+        font-size: 1.02em;
+        padding-left: 11px;
+        padding-top: 9px;
+        padding-right: 12px;
+        padding-bottom: 12px;
     }
 
     /*-----------------------Filtres--------------------------------------*/
@@ -856,8 +856,11 @@ footer li{font-size:0.8em}
     }
 
     .filtres li {
-        padding-bottom: 50px
+        padding-bottom: 38px
     }
+    .textfiltre{font-size: 1em;padding-left: 20px;padding-bottom: 10px;padding-top: 10px;padding-right: 15px}
+    .bill-logo,.family-logo,.heart-logo,.dog-logo{font-size: 1.05em;padding:11px;left: 18px}
+    .family-logo{font-size: 1.18em;padding-top: 10px;padding-right: 13px;padding-left: 13px}
 
     /*-----------------------Hébergements populaire------------------------------------------*/
     .hebergements {
@@ -870,9 +873,28 @@ footer li{font-size:0.8em}
         width: 93%;
         padding: 20px
     }
+aside ul{flex-direction: column;width: 100%}
+aside li{width: 90%;margin-bottom: 15px}
+.textpop h2 {
+    padding: 5%;
+    font-weight: bold;
+    padding-bottom: 2%;
+    font-size: 1em
+}
 
+.textpop h3 {
+    padding: 5%;
+    padding-top: 2px;
+    font-size: 0.8em
+}
+
+.textpop p {
+    padding-left: 5%;
+    padding-top: 10%;
+    font-size: 0.85em
+}
     .titrepop {
-        padding-top: 20px
+        padding-top: 15px;padding-bottom: 15px;margin-right: 0px;justify-content: space-between;width: 100%
     }
 
     .titrepop h2 {
@@ -886,31 +908,35 @@ footer li{font-size:0.8em}
         background-color: white;
         padding-right: 0px;
     }
+    #ancreheb{padding-left: 5%;padding-bottom: 15px;}
+    .hebdefaut ul{flex-direction: column;align-items: center}
 
     .hebdefaut li {
-        width: 95%;
+        width: 90%;
         height: 200px
     }
+    .hebdefaut li h3{font-size: 0.9em}
+    .hebdefaut li p{font-size: 0.85em}
 
     .hebdefaut li img {
         height: 120px;
         width: 100%;
         object-fit: cover
     }
+    .scroll{padding-left: 5%}
 
     /*-----------------------Activités--------------------------------------------*/
-    .activites ul li {
-        width: 90%
+    .activites{width: 100%;padding-left: 5%;padding-bottom: 20px}
+    .flexact{flex-direction: column;align-items: center;width: 100%;padding-right:0px;}
+    .flexact ul{
+        width: 100%;padding-right: 0px;
     }
-
-    .activites ul {
-        padding-left: 0px;
-        align-items: center;
-    }
+    .flexact li{width: 90%;margin-right: 0px;margin-bottom: 20px}
+    .flexact img{height: 155px;object-fit: cover;object-position: 20% 80%}
+    .flexact h2{font-size: 1.2em;padding-top: 1%;padding-bottom: 1%;}
 
     /*------------------------Footer------------------------------------------*/
     .footer {
-        margin-left: 15px;
         padding-bottom: 40px
     }
 
