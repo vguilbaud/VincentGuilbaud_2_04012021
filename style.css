@@ -754,7 +754,6 @@ footer div {
     .titrepop {
         width: 100%;
         padding-bottom: 10px;
-        padding-left:
     }
 
 
@@ -947,23 +946,23 @@ footer div {
 
     /*-----------------------Hébergements populaire------------------------------------------*/
     .hebergements {
-        flex-direction: column-reverse;
-        width: 100%
+        flex-direction: column-reverse;align-items: stretch;
+        width: 100%;padding-bottom: 40px;
     }
 
     aside {
         border-radius: 0px 0px 0px 0px;
-        width: 95.5%;
-        padding: 20px
+        width: 100%;
+        padding-left: 20px;padding-right: 0px
     }
 
     aside ul {
-        flex-direction: column;
+        flex-direction: column;align-items: baseline;
         width: 100%
     }
 
     aside li {
-        width: 92%;
+        width: 93%;
         margin-bottom: 15px
     }
 
@@ -993,6 +992,7 @@ footer div {
     .titrepop {
         padding-top: 15px;
         padding-bottom: 15px;
+        padding-right: 0px;
         margin-right: 0px;
         justify-content: space-between;
         width: 100%
@@ -1001,29 +1001,30 @@ footer div {
     .titrepop h2 {
         font-size: 1.4em
     }
+    .graph-logo{padding-right: 20px}
 
     /*-----------------------Hébergements normaux-------------------------------------------*/
     .hebdefaut {
         border-radius: 0px 0px 0px 0px;
-        width: 95.5%;
+        width: 100%;
         background-color: white;
         padding-right: 0px;
         padding-left: 20px
     }
 
     #ancreheb {
-        padding-left: 5%;
+        padding-left: 0px;
         padding-bottom: 15px;
     }
 
     .hebdefaut ul {
         flex-direction: column;
-        align-items: center;
+        align-items: baseline;
         padding-bottom: 0px
     }
 
     .hebdefaut li {
-        width: 92%;
+        width: 93%;
         height: 200px
     }
 
@@ -1045,20 +1046,16 @@ footer div {
         object-fit: cover
     }
 
-    .scroll {
-        padding-left: 5%;
-    }
-
     /*-----------------------Activités--------------------------------------------*/
     .activites{
-        width: 96%;
-        padding-left: 8.6%;
+        width: 100%;
+        padding-left: 20px;
         padding-bottom: 20px
     }
 
     .flexact {
         flex-direction: column;
-        align-items: center;
+        align-items: baseline;
         width: 100%;
         padding-right: 0px;
     }
@@ -1069,7 +1066,7 @@ footer div {
     }
 
     .flexact li {
-        width: 90.5%;
+        width: 93%;
         margin-right: 0px;
         margin-bottom: 20px
     }
@@ -1087,9 +1084,10 @@ footer div {
     }
 
     /*------------------------Footer------------------------------------------*/
-    .footer {
-        padding-bottom: 40px
+    footer {
+        padding-bottom: 40px; padding-left: 20px;width: 100%;padding-right: 0px
     }
+    .footer{padding-left: 0px}
 
     .footer div {
         margin-right: 40px;
