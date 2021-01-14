@@ -366,8 +366,14 @@ form {
 .rom:hover .heart-logo,
 .chien:hover .dog-logo {
     color: black;
-    background-color: #F2F2F2;
+    background-color: #F2F2F2;border: #d9d9d9 solid 2px;
 }
+.eco:hover .textfiltre,.fam:hover .textfiltre,.rom:hover .textfiltre,.chien:hover .textfiltre{background-color: #F2F2F2}
+.eco:hover .bill-logo,.rom:hover .heart-logo{padding:15px;}
+.fam:hover .family-logo{    padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 14px;padding-bottom: 15px}
+    .chien:hover .dog-logo{padding:15px;padding-top: 13px}
 
 .eco:hover,
 .fam:hover,
@@ -398,12 +404,6 @@ form {
 .dog-logo {
     font-size: 1.3em;
     padding-top: 15px;
-    padding-bottom: 17px
-}
-
-.heart-logo {
-    padding-left: 17px;
-    padding-right: 17px
 }
 
 .filtres p {
@@ -581,7 +581,56 @@ aside ul {
     font-size: 1.3em
 }
 
-/*--Arrangement pour garder les hébergements cote à cote pour les petits laptop*/
+/*---------------------------------------Activités---------------------------------------*/
+
+#ancreact {
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-bottom: 25px
+}
+
+.activites {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px
+}
+
+.activites img {
+    width: 100%;
+    border-radius: 25px 25px 0px 0px
+}
+
+.activites ul h2 {
+    font-weight: bold;font-size: 0.9em;
+    box-shadow: 0px 2px 2px #F2F2F2;
+    border-radius: 0px 0px 25px 25px;
+    padding-bottom: 6%;
+    padding-top: 6%;
+    padding-left: 8%
+}
+
+.activites ul {
+    width: 22%
+}
+
+.activites li {
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.flexact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.pomfri,
+.damelong {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*--Arrangement pour garder les hébergements cote à cote pour les petits laptop et conserver la taille des textes des activités*/
 
 @media all and (max-width: 1150px) {
     .hebdefaut li h2 {
@@ -613,58 +662,15 @@ aside ul {
     .textpop p {
         font-size: 0.6em
     }
+
+    /*--Pour garder l'alignement des cadres--*/
+
+
+    .activites ul h2{font-size: 0.8em;padding-left: 5%}
 }
-
-/*---------------------------------------Activités---------------------------------------*/
-
-#ancreact {
-    font-weight: bold;
-    font-size: 1.4em;
-    padding-bottom: 25px
+@media all and (max-width: 950px){
+   .activites ul .calanques h2{font-size: 0.7em;padding-left: 4%}
 }
-
-.activites {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px
-}
-
-.activites img {
-    width: 100%;
-    border-radius: 25px 25px 0px 0px
-}
-
-.activites ul h2 {
-    font-weight: bold;
-    box-shadow: 0px 2px 2px #F2F2F2;
-    border-radius: 0px 0px 25px 25px;
-    padding-bottom: 6%;
-    padding-top: 6%;
-    padding-left: 8%
-}
-
-.activites ul {
-    width: 22%
-}
-
-.activites li {
-    width: 100%;
-    border-radius: 25px 25px 25px 25px;
-}
-
-.flexact {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap
-}
-
-.pomfri,
-.damelong {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 
 
 /*-------------------------------------Footer-----------------------------------------*/
@@ -1087,9 +1093,7 @@ footer div {
     footer {
         padding-bottom: 40px; padding-left: 20px;width: 100%;padding-right: 0px
     }
-    .footer{padding-left: 0px}
+    .footer{flex-direction: column}
 
-    .footer div {
-        margin-right: 40px;
-    }
+    .footer div{padding-bottom: 10px;}
 }
