@@ -167,22 +167,6 @@ body {
     color: #0065FC
 }
 
-.bill-logo,
-.family-logo,
-.heart-logo,
-.dog-logo {
-    background-color: #DEEBFF;
-}
-
-.bluestar,
-.greystar {
-    font-size: 0.8em
-}
-
-.graph-logo {
-    font-size: 1.5em
-}
-
 .hebdefaut,
 aside,
 footer {
@@ -268,17 +252,16 @@ form {
     position: relative
 }
 
-.rechercher {
-    color: white;
-    background-color: #0065FC;
-    border-style: none;
-    font-weight: bold;
-    padding-left: 20px;
-    padding-top: 22px;
-    padding-bottom: 21px;
-    padding-right: 17px;
-    border-radius: 0px 20px 20px 0px;
-    font-size: 1em
+.map-logo {
+    background-color: #F2F2F2;
+    font-size: 1.15em;
+    padding-left: 19px;
+    padding-top: 17px;
+    padding-right: 19px;
+    padding-bottom: 20px;
+    border-left: #F2F2F2 solid 2px;
+    border-top: #F2F2F2 solid 2px;
+    border-radius: 20px 0px 0px 20px
 }
 
 #citylocation {
@@ -294,16 +277,17 @@ form {
     padding-right: 35px
 }
 
-.map-logo {
-    background-color: #F2F2F2;
-    font-size: 1.15em;
-    padding-left: 19px;
-    padding-top: 17px;
-    padding-right: 19px;
-    padding-bottom: 20px;
-    border-left: #F2F2F2 solid 2px;
-    border-top: #F2F2F2 solid 2px;
-    border-radius: 20px 0px 0px 20px
+.rechercher {
+    color: white;
+    background-color: #0065FC;
+    border-style: none;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 22px;
+    padding-bottom: 21px;
+    padding-right: 17px;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 1em
 }
 
 .search-logo {
@@ -317,6 +301,12 @@ form {
 .filtres {
     padding-left: 50px;
     padding-right: 50px
+}
+
+.filtresflex {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px
 }
 
 .filtres h2 {
@@ -339,11 +329,6 @@ form {
     padding-right: 20px;
 }
 
-.filtresflex {
-    display: flex;
-    align-items: center;
-    padding-bottom: 10px
-}
 
 .filtres ul {
     display: flex;
@@ -361,32 +346,11 @@ form {
     position: relative;
 }
 
-.eco:hover .bill-logo,
-.fam:hover .family-logo,
-.rom:hover .heart-logo,
-.chien:hover .dog-logo {
-    color: black;
-    background-color: #F2F2F2;border: #d9d9d9 solid 2px;
-}
-.eco:hover .textfiltre,.fam:hover .textfiltre,.rom:hover .textfiltre,.chien:hover .textfiltre{background-color: #F2F2F2}
-.eco:hover .bill-logo,.rom:hover .heart-logo{padding:15px;}
-.fam:hover .family-logo{    padding-right: 17px;
-    padding-left: 17px;
-    padding-top: 14px;padding-bottom: 15px}
-    .chien:hover .dog-logo{padding:15px;padding-top: 13px}
-
-.eco:hover,
-.fam:hover,
-.rom:hover,
-.chien:hover {
-    cursor: pointer
-}
-
 .bill-logo,
 .family-logo,
 .heart-logo,
 .dog-logo {
-    padding: 17px;
+    padding: 17px;background-color: #DEEBFF;
     border-radius: 50%;
     font-size: 1.2em;
     font-weight: bold;
@@ -404,6 +368,48 @@ form {
 .dog-logo {
     font-size: 1.3em;
     padding-top: 15px;
+}
+
+/*----------------Design filtres au survol---------------*/
+
+.eco:hover .bill-logo,
+.fam:hover .family-logo,
+.rom:hover .heart-logo,
+.chien:hover .dog-logo {
+    color: black;
+    background-color: #F2F2F2;
+    border: #d9d9d9 solid 2px;
+}
+
+.eco:hover .textfiltre,
+.fam:hover .textfiltre,
+.rom:hover .textfiltre,
+.chien:hover .textfiltre {
+    background-color: #F2F2F2
+}
+
+.eco:hover .bill-logo,
+.rom:hover .heart-logo {
+    padding: 15px;
+}
+
+.fam:hover .family-logo {
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 14px;
+    padding-bottom: 15px
+}
+
+.chien:hover .dog-logo {
+    padding: 15px;
+    padding-top: 13px
+}
+
+.eco:hover,
+.fam:hover,
+.rom:hover,
+.chien:hover {
+    cursor: pointer
 }
 
 .filtres p {
@@ -429,26 +435,19 @@ Hébergements normaux*/
 
 .hebdefaut,
 aside {
-    border-radius: 20px
+    border-radius: 25px
 }
 
 .hebergements {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: stretch;
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom: 50px
 }
 
-.hebdefaut img {
-    border-radius: 25px 25px 0px 0px;
-    width: 100%;
-}
-
 .hebdefaut {
-    max-width: 900px;
     width: 62%;
     padding: 1.5%;
     padding-bottom: 0px;
@@ -461,6 +460,17 @@ aside {
     padding: 1.4%
 }
 
+.hebdefaut ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 1%;
+    padding-bottom: 3%
+}
+
 .hebdefaut li {
     width: 30%;
     background-color: white;
@@ -468,6 +478,11 @@ aside {
     border-radius: 25px 25px 25px 25px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 6px #A9B2B8
+}
+
+.hebdefaut img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
 }
 
 .hebdefaut li h2 {
@@ -485,18 +500,6 @@ aside {
     font-size: 0.7em;
     padding: 3%;
     padding-top: 0px
-}
-
-.hebdefaut ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    align-items: center;
-    padding: 1%;
-    padding-bottom: 3%
 }
 
 .scroll {
@@ -521,7 +524,7 @@ aside li {
 }
 
 aside img {
-    border-radius: 25px 0px 0px 25px;
+    border-radius: 20px 0px 0px 20px;
     width: 100%;
     height: auto;
 }
@@ -554,11 +557,18 @@ aside ul {
     padding: 2.5%;
     padding-right: 0px
 }
-.flexpop{display: flex;flex-direction: column;align-items: baseline;justify-content: space-between}
+
+.flexpop {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between
+}
 
 .textpop h2 {
     font-weight: bold;
-    font-size: 1.1em;padding-bottom: 4%
+    font-size: 1.1em;
+    padding-bottom: 4%
 }
 
 .textpop h3 {
@@ -575,6 +585,9 @@ aside ul {
     justify-content: space-between;
     align-items: center;
     font-weight: bold
+}
+.graph-logo {
+    font-size: 1.5em
 }
 
 .titrepop h2 {
@@ -601,7 +614,8 @@ aside ul {
 }
 
 .activites ul h2 {
-    font-weight: bold;font-size: 0.9em;
+    font-weight: bold;
+    font-size: 0.9em;
     box-shadow: 0px 2px 2px #F2F2F2;
     border-radius: 0px 0px 25px 25px;
     padding-bottom: 6%;
@@ -630,6 +644,7 @@ aside ul {
     flex-direction: column;
     justify-content: space-between;
 }
+
 /*--Arrangement pour garder les hébergements cote à cote pour les petits laptop et conserver la taille des textes des activités*/
 
 @media all and (max-width: 1150px) {
@@ -666,10 +681,17 @@ aside ul {
     /*--Pour garder l'alignement des cadres--*/
 
 
-    .activites ul h2{font-size: 0.8em;padding-left: 5%}
+    .activites ul h2 {
+        font-size: 0.8em;
+        padding-left: 5%
+    }
 }
-@media all and (max-width: 950px){
-   .activites ul .calanques h2{font-size: 0.7em;padding-left: 4%}
+
+@media all and (max-width: 950px) {
+    .activites ul .calanques h2 {
+        font-size: 0.7em;
+        padding-left: 4%
+    }
 }
 
 
@@ -706,12 +728,17 @@ footer div {
 /*--------------------------------Média query tablettes et petites tailles d'écran----------------------------------------------*/
 
 @media all and (max-width: 900px) {
-        .entete,
+
+    .entete,
     .hebergements,
-    .activites,footer,header,.filtres {
+    .activites,
+    footer,
+    header,
+    .filtres {
         padding-right: 25px;
         padding-left: 25px
     }
+
     .hebergements {
         flex-direction: column-reverse;
         width: 90%;
@@ -914,8 +941,13 @@ footer div {
         padding-left: 0px;
         padding-right: 0px
     }
-    .filtres h2,.filtres p{padding-left: 20px}
-        .filtresflex {
+
+    .filtres h2,
+    .filtres p {
+        padding-left: 20px
+    }
+
+    .filtresflex {
         display: flex;
         flex-direction: column;
         align-items: baseline;
@@ -950,20 +982,38 @@ footer div {
         padding-left: 13px
     }
 
+    .eco:hover .bill-logo,
+    .rom:hover .heart-logo,
+    .chien:hover .dog-logo {
+        padding: 9px;
+    }
+
+    .fam:hover .family-logo {
+        padding-right: 11px;
+        padding-left: 11px;
+        padding-top: 8px;
+        padding-bottom: 9px
+    }
+
+
     /*-----------------------Hébergements populaire------------------------------------------*/
     .hebergements {
-        flex-direction: column-reverse;align-items: stretch;
-        width: 100%;padding-bottom: 40px;
+        flex-direction: column-reverse;
+        align-items: stretch;
+        width: 100%;
+        padding-bottom: 40px;
     }
 
     aside {
         border-radius: 0px 0px 0px 0px;
         width: 100%;
-        padding-left: 20px;padding-right: 0px
+        padding-left: 20px;
+        padding-right: 0px
     }
 
     aside ul {
-        flex-direction: column;align-items: baseline;
+        flex-direction: column;
+        align-items: baseline;
         width: 100%
     }
 
@@ -1007,7 +1057,10 @@ footer div {
     .titrepop h2 {
         font-size: 1.4em
     }
-    .graph-logo{padding-right: 20px}
+
+    .graph-logo {
+        padding-right: 20px
+    }
 
     /*-----------------------Hébergements normaux-------------------------------------------*/
     .hebdefaut {
@@ -1053,7 +1106,7 @@ footer div {
     }
 
     /*-----------------------Activités--------------------------------------------*/
-    .activites{
+    .activites {
         width: 100%;
         padding-left: 20px;
         padding-bottom: 20px
@@ -1091,9 +1144,17 @@ footer div {
 
     /*------------------------Footer------------------------------------------*/
     footer {
-        padding-bottom: 40px; padding-left: 20px;width: 100%;padding-right: 0px
+        padding-bottom: 40px;
+        padding-left: 20px;
+        width: 100%;
+        padding-right: 0px
     }
-    .footer{flex-direction: column}
 
-    .footer div{padding-bottom: 10px;}
+    .footer {
+        flex-direction: column
+    }
+
+    .footer div {
+        padding-bottom: 10px;
+    }
 }
