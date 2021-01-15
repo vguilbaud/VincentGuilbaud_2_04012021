@@ -350,7 +350,8 @@ form {
 .family-logo,
 .heart-logo,
 .dog-logo {
-    padding: 17px;background-color: #DEEBFF;
+    padding: 17px;
+    background-color: #DEEBFF;
     border-radius: 50%;
     font-size: 1.2em;
     font-weight: bold;
@@ -448,10 +449,9 @@ aside {
 }
 
 .hebdefaut {
-    width: 62%;
+    width: 61%;
     padding: 1.5%;
     padding-bottom: 0px;
-    margin-right: 3%;
 }
 
 #ancreheb {
@@ -465,8 +465,6 @@ aside {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2px;
-    margin-bottom: 2px;
     padding: 1%;
     padding-bottom: 3%
 }
@@ -511,7 +509,7 @@ aside {
 
 aside {
     padding: 1.5%;
-    width: 30%
+    width: 29%
 }
 
 aside ul {
@@ -586,6 +584,7 @@ aside li a {
     align-items: center;
     font-weight: bold
 }
+
 .graph-logo {
     font-size: 1.5em
 }
@@ -625,6 +624,7 @@ aside li a {
 .activites ul {
     width: 22%
 }
+
 .activites li {
     width: 100%;
     border-radius: 25px 25px 25px 25px;
@@ -790,7 +790,7 @@ footer h2 {
 
 
     .hebdefaut {
-        width: 100%;margin-right: 0px
+        width: 100%;
     }
 
     .hebdefaut li {
@@ -867,7 +867,7 @@ footer h2 {
         justify-content: stretch
     }
 
-        .entete li {
+    .entete li {
         padding-left: 0px;
         padding-right: 0px;
         padding-top: 0px;
@@ -875,7 +875,7 @@ footer h2 {
         width: 50%
     }
 
-        .entete li a {
+    .entete li a {
         padding-bottom: 20px;
         margin-bottom: 30px;
         width: 100%;
@@ -905,7 +905,7 @@ footer h2 {
         padding-bottom: 25px
     }
 
-        .map-logo {
+    .map-logo {
         font-size: 1.02em;
         padding-left: 11px;
         padding-top: 9px;
@@ -964,7 +964,7 @@ footer h2 {
         padding-right: 15px
     }
 
-        .filtres h2,
+    .filtres h2,
     .filtres p {
         padding-left: 20px
     }
@@ -1010,16 +1010,14 @@ footer h2 {
     aside {
         border-radius: 0px 0px 0px 0px;
         width: 100%;
+        padding-right: 0px;
         padding-left: 20px;
-        padding-right: 0px
     }
 
-    
+
     .titrepop {
         padding-top: 15px;
         padding-bottom: 15px;
-        padding-right: 0px;
-        margin-right: 0px;
         justify-content: space-between;
         width: 100%
     }
@@ -1053,8 +1051,8 @@ footer h2 {
 
     .textpop h2 {
         font-weight: bold;
-        padding-bottom: 2%;
-        font-size: 1em
+        padding-bottom: 3%;
+        font-size: 1.1em
     }
 
     .textpop h3 {
@@ -1140,10 +1138,16 @@ footer h2 {
         object-position: 20% 72%
     }
 
-    .flexact h2 {
-        font-size: 1.2em;
-        padding-top: 1%;
-        padding-bottom: 1%;
+    #ancreact {
+        font-size: 1.2em
+    }
+
+    .activites ul h2 {
+        font-size: 1em
+    }
+
+    .activites ul .calanques h2 {
+        font-size: 0.9em
     }
 
     /*------------------------Footer------------------------------------------*/
