@@ -689,10 +689,7 @@ aside li a {
 }
 
 @media all and (max-width: 950px) {
-    .activites ul .calanques h2 {
-        font-size: 0.7em;
-        padding-left: 4%
-    }
+    .activites ul .calanques h2 span{display:none}
 }
 
 
@@ -1086,7 +1083,8 @@ footer h2 {
 
     .hebdefaut li {
         width: 92%;
-        height: 200px
+        height: 200px;
+        padding-bottom: 5px;
     }
 
     .hebdefaut li h2 {
@@ -1146,8 +1144,8 @@ footer h2 {
         font-size: 1em
     }
 
-    .activites ul .calanques h2 {
-        font-size: 0.9em
+    .activites ul .calanques h2 span{
+        display: inline;
     }
 
     /*------------------------Footer------------------------------------------*/
