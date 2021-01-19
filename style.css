@@ -168,7 +168,7 @@ body {
 }
 
 .hebdefaut,
-aside,
+.hebpop,
 footer {
     background-color: #F2F2F2;
 }
@@ -435,7 +435,7 @@ form {
 Hébergements normaux*/
 
 .hebdefaut,
-aside {
+.hebpop {
     border-radius: 25px
 }
 
@@ -507,12 +507,12 @@ aside {
 
 /*--------------------------Hébergements populaires------------------------------*/
 
-aside {
+.hebpop{
     padding: 1.5%;
     width: 29%
 }
 
-aside ul {
+.hebpop ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -520,7 +520,7 @@ aside ul {
     align-items: center
 }
 
-aside li {
+.hebpop li {
     background-color: white;
     border-radius: 25px 25px 25px 25px;
     border: white solid 4px;
@@ -529,13 +529,13 @@ aside li {
     margin-top: 7%
 }
 
-aside img {
+.hebpop img {
     border-radius: 20px 0px 0px 20px;
     width: 100%;
     height: auto;
 }
 
-aside li a {
+.hebpop li a {
     display: flex;
     width: 100%;
     justify-content: stretch
@@ -744,17 +744,17 @@ footer h2 {
         padding-bottom: 20px
     }
 
-    aside {
+    .hebpop {
         width: 100%;
         margin-bottom: 40px;
     }
 
-    aside ul {
+    .hebpop ul {
         display: flex;
         flex-direction: row;
     }
 
-    aside li {
+    .hebpop li {
         width: 30%;
         margin-top: 0px
     }
@@ -1004,7 +1004,7 @@ footer h2 {
         padding-bottom: 40px;
     }
 
-    aside {
+    .hebpop {
         border-radius: 0px 0px 0px 0px;
         width: 100%;
         padding-right: 0px;
@@ -1027,13 +1027,13 @@ footer h2 {
         padding-right: 20px
     }
 
-    aside ul {
+    .hebpop ul {
         flex-direction: column;
         align-items: baseline;
         width: 100%
     }
 
-    aside li {
+    .hebpop li {
         width: 92%;
         margin-bottom: 15px
     }
