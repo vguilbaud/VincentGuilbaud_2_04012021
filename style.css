@@ -734,7 +734,7 @@ footer h2 {
     footer,
     header,
     .filtres {
-        padding-right: 25px;
+        padding-right: 0px;
         padding-left: 25px
     }
 
@@ -926,7 +926,7 @@ footer h2 {
         font-size: 1.15em;
         border-style: none;
         padding: 14px;
-        padding-bottom: 11px;
+        padding-bottom: 10px;
         border-radius: 10px 10px 10px 10px;
         padding-top: 12px;
         left: 255px;
