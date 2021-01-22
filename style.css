@@ -454,7 +454,7 @@ Hébergements normaux*/
     padding-bottom: 0px;
 }
 
-#ancreheb {
+#hebdefauttitre {
     font-weight: bold;
     font-size: 1.3em;
     padding: 1.4%
@@ -826,7 +826,7 @@ footer h2 {
 
 /*------------------------------------------Média query Téléphone et petites tailles---------------------------------------------*/
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 620px) {
 
     .entete,
     .hebergements,
@@ -1070,7 +1070,7 @@ footer h2 {
         padding-left: 20px
     }
 
-    #ancreheb {
+    #hebdefauttitre {
         padding-left: 0px;
         padding-bottom: 15px;
     }
