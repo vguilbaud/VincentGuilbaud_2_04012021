@@ -179,7 +179,7 @@ a {
 }
 
 
-/*------------------------------------Logo et menu de navigation-------------------------------------*/
+/*------------------------------------Header Logo et menu de navigation-------------------------------------*/
 
 #logoreservia {
     min-width: 105px;
@@ -229,9 +229,9 @@ a {
     color: #0065FC
 }
 
-/*----------------------------------------Début Header : Champ de recherche--------------------------*/
+/*----------------------------------------Champ de recherche--------------------------*/
 
-header {
+.Titresrech {
     padding-right: 50px;
     padding-left: 50px;
 }
@@ -242,7 +242,7 @@ h1 {
     padding-bottom: 10px
 }
 
-header h2 {
+.Titresrech h2 {
     padding-bottom: 20px
 }
 
@@ -732,7 +732,7 @@ footer h2 {
     .hebergements,
     .activites,
     footer,
-    header,
+    .Titresrech,
     .filtres {
         padding-right: 0px;
         padding-left: 25px
@@ -889,7 +889,7 @@ footer h2 {
 
 
     /*-----------------------Champ de Recherche--------------------------------------*/
-    header {
+    .Titresrech {
         padding-left: 20px;
         padding-right: 0px
     }

@@ -11,6 +11,7 @@
 
 <body>
     <div class="conteneur">
+        <header>
         <nav class="entete">
             <div class="toptel"><a href="index.html">
                     <img src="material/images/logo/logoreserviasmall.png" alt="Logo Reservia" id="logoreservia">
@@ -21,14 +22,15 @@
                 <li class="inscription"><a href="inscription.html">S'inscrire</a></li>
             </ul>
         </nav>
-        <header>
+        <div class="Titresrech">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <h2>En plein centre ville ou en pleine nature</h2>
             <form method="post" action="traitement.php">
                 <p><label for="citylocation"><span class="map-logo"><i class="fas fa-map-marker-alt"></i></span></label><input type="text" name="citylocation" id="citylocation" value="Marseille, France"><button class="rechercher">Rechercher</button><button class="search-logo"><i class="fas fa-search"></i></button>
             </form>
-        </header>
-        <nav class="filtres">
+        </div>
+    </header>
+        <section class="filtres">
             <div class="filtresflex">
                 <h2>Filtres</h2>
                 <ul>
@@ -47,8 +49,8 @@
                 </ul>
             </div>
             <p><span class="info-logo"><i class="fas fa-info"></i></span> Plus de 500 logements sont disponibles dans cette ville</p>
-        </nav>
-        <div class="hebergements" id="ancreheb">
+        </section>
+        <section class="hebergements" id="ancreheb">
             <div class="hebdefaut">
                 <h2 id="hebdefauttitre">Hébergements à Marseille</h2>
                 <ul>
@@ -91,7 +93,7 @@
                 </ul>
                 <p class="scroll">Afficher plus</p>
             </div>
-            <section class="hebpop">
+            <div class="hebpop">
                 <div class="titrepop">
                     <h2>Les plus populaires</h2>
                     <p class="graph-logo"><i class="fas fa-chart-line"></i></p>
@@ -140,8 +142,8 @@
                         </a>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
         <section class="activites">
             <h2 id="ancreact">Activités à Marseille</h2>
             <div class="flexact">
